@@ -1,0 +1,1715 @@
+* { margin:0; padding:0; }
+
+html { height:100%; }
+
+@font-face
+{
+    font-family: Yanone Kaffeesatz;
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot');
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section
+{
+    display: block;
+}
+
+body
+{
+    font: normal .85em arial, sans-serif;
+    color: #555;
+    background:#F9F9F9;
+}
+
+body .preloader {
+	margin-left:45%; margin-top:10%;width:10%;
+				}
+
+body #myDialogNoscript{
+	height:25px;
+	display:none;
+	cursor:pointer;
+	background-color:#4682B4;
+	text-align:center;
+	color:white;
+	font-size:14px;
+	padding-top:3px;
+}
+
+body #myDialog {
+	height:25px;
+	display:none;
+	cursor:pointer;
+	background-color:#4682B4;
+	text-align:center;
+	color:white;
+	font-size:14px;
+	padding-top:3px;
+}
+
+body #myDialog span{
+	
+	float:right;
+	margin-right:5px;
+}
+
+
+p
+{
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+img
+{
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #362C20;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+}
+
+h1, h2, h4
+{
+    font: normal 200% arial, sans-serif;
+    text-shadow: 1px 1px #FFF;
+    margin: 0 0 15px 0;
+    padding: 15px 20px 5px 0;
+    color: #555;
+}
+
+h1
+{
+    text-transform: none;
+    font: 25px 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+    text-shadow: 1px 1px #FFF;
+    color: #444;
+}
+
+h2
+{
+    font: normal 150% arial, sans-serif;
+}
+
+h4
+{
+    font: normal 150% "Yanone Kaffeesatz", arial, sans-serif;
+    padding: 5px 20px 5px 0;
+    margin: 0;
+    color: #555;
+}
+
+h3
+{
+    color: #93d051;
+    padding: 10px 0 5px 0;
+    font: normal 210% "Yanone Kaffeesatz", arial, sans-serif;
+}
+
+h5
+{
+    color: #888;
+    font: italic 105% arial;
+    letter-spacing: normal;
+    padding: 0 0 15px 0;
+}
+
+h6
+{
+    padding: 5px 0 25px 0;
+}
+
+a, a:hover
+{
+    outline: none;
+    text-decoration: underline;
+    color: #A4AA04;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+blockquote
+{
+	margin: 20px 0;
+	padding: 10px 20px 0 20px;
+	border: 1px solid #E5E5DB;
+	background: #FFF;
+}
+
+ul
+{
+	margin: 2px 0 22px 17px;
+}
+
+ul li
+{
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
+ol
+{
+    margin: 8px 0 22px 20px;
+}
+
+ol li
+{
+    margin: 0 0 11px 0;
+}
+
+.left
+{
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.right
+{
+    float: right;
+    width: auto;
+    margin-left: 10px;
+}
+
+.center
+{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main /* wrapper: place margin-top here to give space for banners on top of site */
+{
+    border: 1px solid #E5E5DB;
+    background-color:#fff;
+}
+
+#main, #logo, nav, #site_content, footer
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+
+header
+{
+    background: #fff url(../images/back.png) repeat-x;
+    height: 165px;
+}
+
+#logo
+{
+    width: 875px;
+    position: relative;
+    height: 120px;
+    background: url(../images/buslogo.png) no-repeat bottom right;
+}
+
+#logo h1, #logo h2
+{
+    font: normal 220% arial, sans-serif;
+    border-bottom: 0;
+    text-transform: none;
+    text-shadow: none;
+    margin: 0;
+}
+
+#logo h2
+{
+    font: normal 140% 'Yanone Kaffeesatz', arial, sans-serif;
+}
+
+#logo_text > h1 > a > img 
+{ 
+	position: relative; 
+	left: -5px; 
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover
+{
+    padding: 25px 0 0 0;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour
+{
+    color: #09D4FF;
+    text-shadow: 0;
+}
+
+#logo_text a:hover .logo_colour
+{
+    color: #FFF;
+}
+
+#logo_text h2
+{
+    padding: 0 0 0 0;
+    color: #A8AA94;
+}
+
+nav
+{
+    width: 935px;
+    height: 44px;
+    padding: 0 0 0 4px;
+}
+
+
+
+/******** Right Column / Sidebar ********/
+
+#sidebar_container
+{
+    float: right;
+    width: 254px;
+}
+
+.sidebar
+{
+    width: 220px;
+    background:#fff;
+    padding: 10px 15px 15px 15px;
+    margin: 0 0 8px 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    border: 1px solid #eee;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -o-border-radius: 15px 15px 15px 15px;    
+}
+
+
+/****** Reservation/Book-Box ******/
+#sidebar-book-box { 
+					padding:14px 15px 10px 15px;
+					background-color:#fff;
+				  }		  
+										
+#sidebar-book-box > h3 {
+						margin-top:-10px; 
+						font-size:30px;
+					   }							
+#sidebar-book-box > h4 {					
+						position:relative; 
+						top:-10px; 
+						margin-bottom:20px; 
+						padding-bottom:0px;  								
+						font-size:23px; 
+						color:#93D051;
+					   }			
+										
+#sidebar-book-box > h4 > span {				  
+				  		    	 font-size:16px;
+				  			  }
+				  
+				  
+#sidebar-book-box > table {				   
+				  			position:relative; 
+				  			top:-15px;
+				  			margin:0px;
+				  			padding:0px; 
+				  			background-color:#fff;
+				  		  }
+				  
+#sidebar-book-box > table > tbody td {				  
+				  					  margin:0; 
+				  					  padding:0 5px 0 0;   
+				  					  background-color:#fff;
+							   	     }
+
+#sidebar-book-box > table > tbody > tr > td > img {
+													margin-top:-20px; 
+												  }
+#sidebar-book-box > table > tbody > tr > td > h4 {
+													margin-top:-5px;
+												 }
+#sidebar-book-box > table > tbody > tr > td #tel {												 
+													margin-top:-12px;
+												 }												 
+#sidebar-book-box > table > tbody > tr > td #sms {
+													margin-top:-10px;
+												 }													 
+#sidebar-book-box > table > tbody > tr > td #mail {
+													margin-top:5px;
+												  }												 
+#sidebar-book-box > table > tbody > tr td #imgmail{
+													margin-top:8px;
+												  }		
+												  
+												  
+/********** Basket / Warenkorb **********/												  	
+#sidebar-basket > div {
+							margin-bottom:5px;
+							border-top:1px solid #ccc;
+					  }
+
+#sidebar-basket > h1 {
+							height:30px;
+							padding:10px 0 0 0;
+							text-align:center;
+							font-size:22px;
+							font-weight:bold;
+							color:#93D051;
+				     }
+
+#sidebar-basket > div > h2 {
+							margin:10px 0 0 0;
+							padding:0;
+							font-family: Yanone Kaffeesatz;	
+							font-weight:bold;
+							font-size:20px;
+							color:#555;
+						   }
+
+#sidebar-basket > div > h3 {
+							font-size:26px;
+							font-weight:bold;
+							text-align:center;
+							color:#555;
+						   }
+
+						  
+#sidebar-basket > div > h4 { 
+							width:100%;
+							font-size:18px;
+							font-family:default;
+							font-weight:normal;								
+							color:#93D051;
+						   }
+
+#sidebar-basket > div > p {
+							margin:0;
+							padding:0;	
+							font-size:13px;
+							font-weight:bold;
+							color:#555;   						  
+						  }
+
+
+#sidebar-basket > div > p > span {
+							float:right;								
+							margin:0;
+							font-size:17px;
+							font-weight:bold;
+							color:#555;								 
+								 }
+			
+#sidebar-basket > div > div { 
+							margin:-5px 50px 0 50px;
+							text-align:center; 
+							font-family: Yanone Kaffeesatz;	
+							font-size:18px; 
+								}
+
+#sidebar-basket > div > input {
+							width:200px; 
+			      			height:48px;
+				  			margin:10px 12px 0 10px;
+                  			vertical-align:center;
+               				text-align:center;
+			  				font-size:22px;
+                  			font-family: Yanone Kaffeesatz;	 
+                  			color:#fff;
+                  			background-color:#93D051;
+                  			border:1px solid #84bb48;
+							-webkit-border-radius:5px;
+                  			-moz-border-radius:5px;
+                  			-ms-border-radius:5px;
+                  			-o-border-radius:5px;
+                 			border-radius:5px;
+							  }	
+							  
+#sidebar-basket > div > input:hover { 
+								background-color:#93C551;
+									}										  
+								
+												 					  										 					
+/**** FAQ ****/										
+#sidebar-faq > h4 {
+					text-transform: none; 
+					font:23px 'Yanone Kaffeesatz', helvetica,arial,verdana,sans; 
+					text-shadow: 1px 1px #FFF; color: #444;
+				  }
+				  
+/**** Socialmedia ****/
+#sidebar-mediaicons p {
+						padding:15px 0 0 5px;
+			   		  }
+
+
+.sidebar ul
+{
+        width: 178px;
+        padding: 4px 0 0 0;
+        margin: 4px 0 30px 0;
+}
+
+.sidebar li
+{
+        list-style: none;
+        padding: 0 0 7px 0;
+}
+
+.sidebar li a, .sidebar li a:hover
+{
+        padding: 0 0 0 25px;
+        display: block;
+}
+
+.sidebar li a.selected
+{
+        color: #444;
+}
+
+
+/*************************************** Main Content *************************************/
+/******************************************************************************************/
+
+#site_content
+{
+    width: 885px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    padding: 0 0 20px 0;
+}
+
+
+#content
+{
+    text-align: left;
+    width: 600px;
+    padding: 0 0 0 5px;
+    float: left;
+    font-family: 'trebuchet ms', sans-serif;
+    color: #707070;
+    font-size: 14px;
+}
+	  
+#content > h3 {
+				position:relative; 
+				top:-15px; 
+				margin-bottom:0; 
+				padding-bottom:0;
+				font-size:23px !important;  
+				color:#93D051;
+			  }
+
+#content > h3 > span {
+						font-size:16px;
+					 }			  
+ 
+#content > h4 {
+				position:relative; 
+				top:-20px;
+				margin-top:0;   
+				padding-top:0; 
+				font-size:29px; 
+				color:#93D051;
+			  }
+			  
+#content > h4 > span {
+						font-size:16px;
+					 }			  
+				  
+#content > h5 {
+				margin-top:-15px;  
+				padding-top:0px;
+				font-size:11px;
+			  }
+
+.content-faq #faq_h4{
+            		text-transform: none;
+            		font: 20px 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+            		text-shadow: 1px 1px #FFF;
+            		color: #444;
+        			}
+        		
+.content-faq h5{
+            	margin:0;
+            	padding:50px 0 0 0 !important;
+            	text-transform: none;
+            	font: 20px 'Yanone Kaffeesatz',helvetica,arial,verdana,sans !important;
+            	text-shadow: 1px 1px #FFF;
+            	color: #444;
+        	   }
+        	   
+.content-faq > #faq_h5 {
+						margin:0;
+						padding:10px 0 0 0 !important;
+						text-transform: none;
+						font: 20px 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+						text-shadow: 1px 1px #FFF;
+						color:#444 !important;
+		 			   }
+		 			 
+.content-faq h6{
+            	margin:0;
+          		padding:25px 0 15px 0;
+          	    text-transform: none;
+            	font: 17px 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+            	text-shadow: 1px 1px #FFF;
+            	color: #444;
+        	   }
+        	   
+#content p {
+        	font-family: 'trebuchet ms', sans-serif;
+        	color: #707070;
+        	font-size: 14px;
+    	   }
+    	   
+#content a{
+    		font-size:14px; color:#808080; text-decoration:underline;
+		  }
+        	   
+#content-about-cars { 
+					margin:0 0 18px 0;
+					font-size:20px; 
+					}
+
+#content #privacy-policy{
+						margin-bottom:10px;
+						}
+
+#content #privacy-policy > h5{
+							font-size:11px; 
+						 	 }		
+
+.content-offtopic-header {
+							margin:0; 
+							padding-top:0; 
+							font-size:20px; 
+							text-transform:capitalize; 
+							font:18px 'Yanone Kaffeesatz',helvetica,arial,verdana,sans; 
+							text-shadow: 1px 1px #FFF; 
+							color: #444;
+				   		  }
+				   		  
+				   		  
+/**** Slideshows on index.php & uberuns.html ****/
+
+#slides { 
+			height:260px !important;
+			margin-bottom:10px;
+		}
+
+#slides img {
+				-webkit-border-radius:15px; 
+				-moz-border-radius:15px; 
+				-o-border-radius:15px;
+				border-radius:15px;
+		    }
+		    
+		    
+/* Icon-table: reservation-options (buchung.html) */
+#reservation-options {
+						margin:0; 
+						padding:0; 
+						background-color:#fff;
+					 }
+    
+#reservation-options > tbody > tr > td {
+										margin:0px; 
+										padding:0 5px 10px 0; 
+										background-color:#fff;
+									   }
+
+#reservation-options > tbody > tr > td > h1{
+											margin:13px auto 0 auto; 
+											padding-top:0; 
+											font:23px 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;  
+											color:#444;
+										   }
+
+#reservation-options > tbody > tr > td > hr{
+											height:1px; 
+											border:0;
+											color:#93D051; 
+											background-color:#808080;
+										   }
+
+
+/**************************** Booking ******************************/
+#booking { 
+			margin:0 0 40px 0;
+			font-family:Yanone Kaffeesatz;
+			background-color:#fff;
+	     }
+
+       
+#booking #main-search { 
+					 position:relative;
+					 overflow:hidden;
+					 height:238px;
+					 width:598px;
+					 border:1px solid #eee;	
+           			 -webkit-border-radius:15px; 
+					 -moz-border-radius:15px; 
+					 -o-border-radius:15px;
+					 border-radius:15px;
+            		 -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    			  	 -moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    				 -o-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    				 box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+				   	  }
+
+#booking #search-wrapper { 
+				 	 width:598px;
+				 	 height:238px;
+				 	 padding:15px 20px 15px 20px;
+			     	 display:block;
+			    		 } 
+			
+#booking #header-form-row { 
+				     width:555px;
+				     height:20px;
+				     margin:-5px 0 10px 0;
+				     font-family:Yanone Kaffeesatz;
+				     font-size:18px;
+				     font-weight:500;
+				     font-style:normal;
+				     color:#4d4943;
+				     overflow:none;
+ 				 }
+			
+#booking .form-row { 
+					 height:50px;
+					 width:555px;
+					 margin:10px 0 0 0;
+					 display:block;	
+		  }
+		  
+#booking .left-box { 
+					 float:left;
+					 width:300px; 
+          }
+
+#booking .left-box > label { 
+					 float:left;
+	                 font-size:20px;
+	                 font-weight:bold;
+	                 color:#93D051;    
+	                 cursor:default;        
+                  }
+                  
+#booking #label-from{ 
+					 margin:10px 0 0 8px; 
+					}
+     
+#booking #label-to { 
+					 margin:10px 0 0 0; 
+				   }      
+                 
+#booking .right-box { 
+			 		 float:right; 
+			 		 width:250px; 
+		   			}
+		   
+#booking .right-box > label { 
+					 float:left;
+	                 font-size:20px;
+	                 font-weight:bold;
+	                 color:#93D051;                        
+                     cursor:default;
+                   }
+                   
+#booking #label-there {
+			   margin:10px 0 0 60px;
+			 		  }
+
+#booking #label-back {
+			   margin:10px 0 0 5px;
+					 }
+           
+		
+#booking #from-city-search {
+					float:right; 
+ 		  			width:250px;
+		 			height:35px;
+					margin:5px 0 5px 0;
+		 			padding-left:7px;
+		  			display:inline-block;
+		  			outline:none;
+ 		  			white-space:nowrap;
+          			zoom:1;
+		  			font-size:24px;
+		  			font-family: Yanone Kaffeesatz;
+		  			font-weight:normal;
+		  			color:#4d4943;
+          			border:1px solid #ccc;
+          			-webkit-border-radius:3px; 
+					-moz-border-radius:3px; 
+					-o-border-radius:3px;
+					border-radius:3px;
+          			background-color:#f7f6f5;
+          			/*background:url(images/.png) right 50px no-repeat; */
+				  } 
+				  	
+#booking #to-city-search{
+		  		 	float:right; 
+ 		  			width:250px;
+		 			height:35px;
+					margin:5px 0 5px 0;
+		 			padding-left:7px;
+		  			display:inline-block;
+		  			outline:none;
+ 		  			white-space:nowrap;
+          			zoom:1;
+		  			font-size:24px;
+		  			font-family: Yanone Kaffeesatz;
+		  			font-weight:normal;
+		  			color:#4d4943;
+          			border:1px solid #ccc;
+          			-webkit-border-radius:3px; 
+					-moz-border-radius:3px; 
+					-o-border-radius:3px;
+					border-radius:3px;
+          			background-color:#f7f6f5;
+          			/*background:url(images/.png) right 50px no-repeat; */
+			    }      
+
+
+.ui-autocomplete {
+	position:absolute;
+	top:0;
+	left:0;
+	width:253px !important;   	
+	font-size:20px !important;
+	font-family: Yanone Kaffeesatz !important;
+	font-weight:normal;
+	color:#4d4943; 
+	cursor:default;
+	background:#fff !important;
+}
+
+
+.ui-datepicker {
+	position:absolute !important; 
+	
+	top:90% !important;
+	left:38.1% !important;
+		
+	width:17em !important;
+	border:1px solid #ccc;
+	background:#fff !important;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	height:35px !important;
+	vertical-align:center !important;
+	font-family: Yanone Kaffeesatz !important;
+	font-size:20px !important;
+	font-weight:normal !important;
+	border:none !important;
+	color:#000 !important;
+	background:none !important;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+	background:none !important;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	background:none !important;
+}
+									 
+.ui-datepicker table > tbody {
+	font-family: Yanone Kaffeesatz !important;
+	font-size:16px;
+}
+
+.ui-datepicker table > tbody > tr > td a {
+	text-align:center !important;
+}
+
+			
+			
+#booking .date { 
+		float:right;		
+		width:150px;
+		height:35px;    
+		margin:5px 0 5px 0;
+		padding-left:7px;
+		display:inline-block;
+		outline:none;
+ 		white-space:nowrap;
+        zoom:1;
+		font-size:24px;
+		font-weight:normal;
+		font-family: Yanone Kaffeesatz;
+		color:#4d4943;
+        border:1px solid #ccc;
+        -webkit-border-radius:3px; 
+		-moz-border-radius:3px; 
+		-o-border-radius:3px;
+		border-radius:3px;
+      	background-color:#f7f6f5 !important;
+        background:url("../images/calendar.png") top 7px right 0 no-repeat;
+              }
+ 
+#booking #checkbox { 
+			float:left; 
+		    margin:20px 0 0 18px;
+		  }   
+		  
+
+#booking .quantity { 
+            float:left;
+            width:112px;
+            height:50px;
+            margin:0;
+            padding:0;
+            -webkit-border-radius:3px; 
+			-moz-border-radius:3px; 
+			-o-border-radius:3px;
+			border-radius:3px;		  
+            }
+		  
+#booking #quantity-adults {
+					float:left;
+					width:120px;
+					height:40px;
+					margin:-2px 0 0 41px; /* in center:75px;*/
+				 }
+
+#booking #quantity-children {
+					width:120px;
+					height:40px;
+					margin:-2px 0 0 0;
+				   }					
+
+#booking .quantity-title { 
+				  width:50px;
+                  margin:0;
+                  text-align:center;
+                  font-size:16px;           
+                  cursor:default;
+				}
+				
+#booking .quantity-input { 
+				  display:inline-block;
+				  height:29px; 
+				  width:60px;
+                  text-align:center;
+                  text-decoration:none;
+				  outline:none;
+                  font-size:20px;
+                  color:#4d4943;
+                  background-color:#f7f6f5;                  
+                  border:1px solid #ccc;
+    			  white-space:nowrap;
+ 			     -webkit-border-radius:3px;
+                 -moz-border-radius:3px;
+                 -ms-border-radius:3px;
+                 -o-border-radius:3px;
+                  border-radius:3px;
+    		   }
+				
+#booking #startsearch { 
+				 float:right; 
+			     width:180px; 
+			     height:48px;
+				 margin-top:5px;
+                 vertical-align:center;
+                 text-align:center;
+				 font-size:22px;
+                 /*font-weight:bold;*/ 
+				 font-family: Yanone Kaffeesatz;
+                 color:#fff;
+                 background-color:#93D051;
+                 border:1px solid #84bb48;
+				 -webkit-border-radius:5px;
+                 -moz-border-radius:5px;
+                 -ms-border-radius:5px;
+                 -o-border-radius:5px;
+                 border-radius:5px;
+			          }
+			         
+#booking #startsearch:hover{ 
+				background-color:#93C551; 
+						   }
+			   
+
+/**************** 2nd AREA / article *****************/  						
+#booking #to-search-result-area { 
+								position:relative;
+								overflow:hidden;
+								height:auto;
+								width:598px;
+								margin:0;
+								padding:0;			 
+							   }
+					   
+#booking #to-search-result-area > h2 { 
+							  	height:32px;
+							  	margin:40px 0 0 0;
+							  	padding:0;
+							  	text-align:center;
+							  	font-family:Yanone Kaffeesatz;
+							  	letter-spacing:0em;
+							  	font-size:30px;
+							  	font-weight:bold; 
+							  	color:#93D051;
+								}	
+												   
+#booking #to-search-results {
+								height:auto;
+								width:595px;
+								margin:0;
+								overflow:hidden;
+								display:block;
+								xxfont-family:Yanone Kaffeesatz;
+								background-color:#fff;
+								border:1px solid #eee;	
+								-webkit-border-radius:15px; 
+								-moz-border-radius:15px; 
+								-o-border-radius:15px;
+								border-radius:15px;
+            					-webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    							-moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    							-o-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    							box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+						   	}
+	
+						   
+/****************** 3rd AREA / article ***************/
+#booking #back-search-result-area { 
+								position:relative;
+								overflow:hidden;
+								height:auto;
+								width:598px;
+								margin:0;
+								padding:0;
+				   	   			  }
+				   	   			  
+#booking #back-search-result-area > h2{ 
+							  	height:32px;
+							  	margin:40px 0 0 0;
+							  	padding:0;
+							  	text-align:center;
+							  	font-family:Yanone Kaffeesatz;
+							  	letter-spacing:0em;
+							  	font-size:30px;
+							  	font-weight:bold; 
+							  	color:#93D051;
+									}	
+							
+#booking #back-search-results {
+								height:auto;
+								width:595px;
+								margin:0;
+								overflow:hidden;
+								display:block;
+								font-family:Yanone Kaffeesatz;
+								background-color:#fff;
+								border:1px solid #eee;	
+								-webkit-border-radius:15px; 
+								-moz-border-radius:15px; 
+								-o-border-radius:15px;
+								border-radius:15px;
+            					-webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    							-moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    							-o-box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+    							box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 2px;
+							  }
+
+
+/******** searchresult dates-navigation ********/
+#booking .resultDates {  
+								position:relative;
+								width:auto;
+								margin:20px 0 0 0;
+								padding:0;
+								overflow:hidden;
+								text-align:center;
+								list-style:none;
+				      }
+						 
+#booking .resultDates > li { 
+								float:none; 
+								display:inline-block; 
+								height:auto;
+								width:auto;
+								margin:0 0 0 3px;
+								padding:0;
+								border:1px solid #ccc;
+								-webkit-border-radius:4px; 
+								-moz-border-radius:4px; 
+								-o-border-radius:4px;
+								border-radius:4px;
+						   }
+
+#booking .resultDates > li > a  {  
+								padding:5px 10px 5px 10px;
+								text-decoration:none;
+								text-align:center;
+								font-weight:bold;								
+								font-size:20px;
+								color:#4d4943;								
+						        }
+						 	 
+#booking .resultDatesHover {
+								color:#fff !important;
+								background-color:#93D051;						   
+						   }
+
+#booking .resultDatesActive {
+								color:#fff !important;
+								background-color:#93D051;
+						    }
+
+#booking .resultDatesInactive {	
+								color:#4d4943;
+								background-color:white;
+							  }
+
+						    
+/******* searchresult data-tables *******/
+#booking .searchResults {
+								margin:0;
+								padding:0;
+						}
+
+#booking .searchResults > table {
+								width:97%;
+								margin:15px 10px 0 10px;
+								font:normal 20px arial, sans-serif !important;
+								text-transform:none;
+								color:#000;
+								}
+																	
+#booking .searchResults > table > tbody{
+								margin:0;
+								padding:0;
+									   }
+
+#booking .searchResults > table > tbody > tr td { 
+								padding:15px 0 15px 0;
+								border-top:1px solid #ccc; 
+								font:normal 20px arial, sans-serif;
+								color:#000;
+												}
+
+#booking .searchResults > table > tbody > tr > .total {
+								text-align:center !important;
+								vertical-align:center !important;
+								font-size:24px !important;
+								font-weight:bold !important;					
+													  } 
+
+#booking .searchResults > table > tbody > tr:hover {
+								cursor:default;
+												   }
+																						
+#booking .searchResults > table > tbody > tr > td > input {
+								width:70px;
+								height:30px;
+								margin-left:28px;
+								padding:0;
+								vertical-align:center;
+								text-align:center;	
+								font-family:Yanone Kaffeesatz;																									font-size:20px;
+								color:#fff;
+								background:#93D051;
+								border:1px solid #84bb48;
+				 				-webkit-border-radius:3px;
+                 				-moz-border-radius:3px;
+               					-ms-border-radius:3px;
+               					-o-border-radius:3px;
+               					border-radius:3px;
+														  }
+
+#booking .searchResults > table > tbody > tr > td > input:hover{ 
+								background-color:#93C551; 
+						   									   }						
+								
+#booking .searchResults .no-ride-message {
+	text-align:center;
+	font-size:20px;
+}
+#booking .searchResults .no-ride-message span {
+
+	margin:50px auto 10px auto;
+}
+
+
+/********** Passenger&Customer forms in booking ***********/
+#bookingClients {
+				margin:0 0 20px 0;
+				padding:0;
+			    }
+			    
+#bookingClients #customerBookingForm { 
+										width:598px; 
+									 }
+
+#bookingClients #customerBookingForm > h1 {
+										font-size:30px;
+										  }
+
+#bookingClients #customerBookingForm .passengerData { 
+												width:100%; 
+												margin:20px; /*margin:20px 0 20px 0;*/
+												padding:0;
+											  }
+											  
+#bookingClients #customerBookingForm .passengerData > div {
+												margin:0 7px 7px 0;											
+												display:inline-block;
+														  }
+
+#bookingClients #customerBookingForm .passengerData > div > label { 
+                  								margin:0;
+                  								font-size:12px;           
+                  								cursor:default;
+                  								}
+                  								
+#bookingClients #customerBookingForm .passengerData > div > input {
+												height:28px; 
+				  								width:170px;
+				  								margin:0;
+                  								padding:1px 2px 1px 7px;
+                  								display:inline-block;
+				  								outline:none;
+				  								zoom:1;
+		  				  						font-family: Yanone Kaffeesatz;					
+												text-decoration:none;
+                  								white-space:nowrap;
+                  								font-size:20px;
+                  								color:#4d4943;
+                  								background-color:#f7f6f5;                  
+                  								border:1px solid #ccc;
+    			  								-webkit-border-radius:3px;
+                 								-moz-border-radius:3px;
+                 								-ms-border-radius:3px;
+                 								-o-border-radius:3px;
+                  								border-radius:3px;
+												}
+
+  								
+#bookingClients #customerBookingForm #clientData { 
+												width:100%; 
+												margin:20px; /*margin:20px 0 20px 0;*/
+												padding:0;
+								  				 }
+								  				 
+#bookingClients #customerBookingForm #clientData > div {
+												margin:0 7px 7px 0;
+												display:inline-block;
+													   }
+													   
+#bookingClients #customerBookingForm #clientData > div > label {
+                  								margin:0;
+                  								font-size:12px;           
+                  								cursor:default;
+                  										 		}
+
+#bookingClients #customerBookingForm #clientData > div > input { 
+												height:28px; 
+				  								width:220px;
+				  								margin:0;
+                  								padding:1px 2px 1px 7px;
+                  								display:inline-block;
+				  								outline:none;
+				  								zoom:1;
+		  				  						font-family: Yanone Kaffeesatz;					
+												text-decoration:none;
+                  								white-space:nowrap;
+                  								font-size:20px;
+                  								color:#4d4943;
+                  								background-color:#f7f6f5;                  
+                  								border:1px solid #ccc;
+    			  								-webkit-border-radius:3px;
+                 								-moz-border-radius:3px;
+                 								-ms-border-radius:3px;
+                 								-o-border-radius:3px;
+                  								border-radius:3px;
+														       }				  
+														  
+#bookingClients #customerBookingForm #clientData > #radio { 
+												margin:0 135px 10px 0; 
+														  }
+														  
+#bookingClients #customerBookingForm #clientData > div > .input_radio {
+												width:auto;
+												margin-right:4px;
+												padding:0;																													  						  }
+																		
+#bookingClients #customerBookingForm #clientData > div > span {
+												margin:0 10px 0 0;
+												font-size:12px;
+ 															  }
+														  
+#bookingClients #customerBookingForm #clientData .slim-field { 
+												width:100px; 
+															 }
+
+#bookingClients #customerBookingForm #clientData > #check { 
+												width:100%;
+												margin:40px 0 0 -25px;
+														  }
+
+#bookingClients #customerBookingForm #clientData > div > p {
+												margin:0; 
+												padding:0;
+												font-size:14px;
+														   }
+															 
+#bookingClients #customerBookingForm #clientData > div > p > .checkbox {
+												width:20px;
+												margin:0;
+												padding:0;
+																       }														  
+
+#bookingClients #customerBookingForm #clientData > div > p > a {
+																font-weight:bold;
+																text-decoration:none;
+															   }
+
+#bookingClients #customerBookingForm #clientData > div > p > a:hover{
+																text-decoration:underline;
+																color:#002255;
+															  	    }
+															  	    
+#bookingClients #customerBookingForm #clientData #bookingFormSubmit > input	{
+				  								width:200px; 
+			      								height:48px;
+				  								margin:20px 10px 20px 0;
+                  								vertical-align:center;
+                  								text-align:center;
+				  								font-size:22px;
+                  								color:#fff;
+                  								background-color:#93D051;
+                  								border:1px solid #84bb48;
+				  								-webkit-border-radius:5px;
+                  								-moz-border-radius:5px;
+                  								-ms-border-radius:5px;
+                  								-o-border-radius:5px;
+                  								border-radius:5px;
+																			}
+
+#bookingClients #customerBookingForm #clientData #bookingFormSubmit > input:hover{ 
+												background-color:#93C551; 
+																				 }
+																				 
+#bookingClients #customerBookingForm .form_msg {
+			display:none;
+			color:#CD3333;		 
+			 								   }
+		  
+
+#bookingConfirmMessage {
+			margin:0 0 15px 0; 
+			padding:15px 20px 5px 0; 
+			letter-spacing:0em; 
+			text-transform:none; 
+			text-shadow:1px 1px #FFF;
+			font-size:25px; 
+			font-family:'Yanone Kaffeesatz',helvetica,arial,verdana, sans-serif;  
+			color:#444;
+					   }	
+																		 
+																				 
+/*************** Reservation-EMail ****************/
+#reservationMail{ 
+							width:60%;
+							margin:20px auto 20px auto; 
+							padding:20px;
+							border:1px solid #ccc;
+							background:#fff;
+				}		
+
+#reservationMail > img {
+							float:right;
+							margin:20px 30px 0 0;
+					   }
+				
+#reservationMail > h1 {
+							margin:100px 0 35px 0;
+							font-size:30px;
+							font-weight:bold;
+							color:#93D051;
+				      }														 
+
+#reservationMail > p {
+							margin-top:-12px;
+					 }
+					 
+#reservationMail > p > a { 
+							text-decoration:underline;
+							color:#025;						 
+						 }
+								
+#reservationMail > p > a:hover {
+							text-decoration:none; 
+							color:#93C551;
+							   }			
+
+#reservationMail > span {
+							font-size:12px;
+							font-style:italic;
+						}
+								
+#reservationMail #signatureText { 
+							margin:10px 0 0 0;
+							padding-top:10px; 
+							border-top:1px solid #ccc;
+							    }
+
+#reservationMail #signatureText > p { 
+							margin:0;
+							padding:0;
+							font-size:13px;
+							font-weight:normal;
+								    }	  
+											 
+/**************************** END of Booking ******************************/
+
+
+/* "Nicht vergessen" - info-box */
+#dont-forget{ 
+			margin:0;
+			padding:0; 
+			}
+
+#dont-forget > span:first-child {
+								color:#b01717; 
+								font-weight:bold;
+			 					}
+
+#dont-forget > span{
+					color:#93D051;
+					font-weight:bold;
+				   }
+
+
+/** stations **/
+#stations > tbody {
+					float:left;
+					margin-bottom:-10px; 
+					padding:0; 
+					background-color:#fff; 
+				  }
+
+#stations > tbody > tr > td{
+							margin:0; 
+							padding:0 5px 0 0;
+							background-color:#fff;
+						   }
+						   
+#stations > tbody > tr > td > img {						   
+						   			height:100px;
+						   		  } 
+						   		  
+#stations > tbody > tr > td > h4 {						   		  
+						   		 position:relative; 
+						   		 top:-1px;
+						   		 font-size:22px; 
+								 }
+
+#stations > tbody > tr > td > h5 {
+									position:relative; 
+									top:-3px; 
+									color:#3e3e3e;
+									font-size:13px;
+								 }
+
+
+/***************************** Footer ******************************/
+footer {
+    width: 100%;
+    font-family: 'trebuchet ms', sans-serif;
+    font-size: 100%;
+    height: 30px;
+    padding: 5px 0 5px 0;
+    color: #000;
+    text-align: center;
+    background: #f8f8f8;
+    border-top: #fcfcfc solid 1px;
+	   }
+
+#footerContainer {
+					position: relative; 
+					top: 7px;
+    				width: 880px;
+    				margin:auto;
+    				text-align:left;
+				 }
+				 
+#footerContainer #offtopic {
+							float: left;
+							font-size:12px; 
+							color:#707070; 
+					 	   }
+
+#footerContainer > p {
+						float:right;
+						position:relative; 
+						top:0;
+    					line-height:1.5em;
+    					padding:0 0 10px 0;
+    					color:#707070; 
+    					font-size:11px; 
+		 			 }
+
+#footerContainer > p a {
+						text-decoration: none;
+						font-size:12px; 
+						font-weight: normal; 
+						color:#707070;
+		 			   }
+
+#footerContainer > p a:hover {
+        						color: #000;
+        						text-decoration: none;
+    						 }
+
+
+.form_settings
+{
+    margin: 15px 0 0 0;
+}
+
+    .form_settings p
+    {
+        padding: 0 0 4px 0;
+    }
+
+    .form_settings span
+    {
+        float: left;
+        width: 200px;
+        text-align: left;
+    }
+
+    .form_settings input, .form_settings textarea
+    {
+        padding: 5px;
+        width: 299px;
+        font: 100% arial;
+        border: 1px solid #E5E5DB;
+        background: #FFF;
+        color: #47433F;
+        border-radius: 7px 7px 7px 7px;
+        -moz-border-radius: 7px 7px 7px 7px;
+        -webkit-border: 7px 7px 7px 7px;
+    }
+
+    .form_settings .submit
+    {
+        font: 100% arial;
+        border: 0;
+        width: 99px;
+        margin: 0 0 0 212px;
+        height: 33px;
+        padding: 2px 0 3px 0;
+        cursor: pointer;
+        background: #3B3B3B;
+        color: #FFF;
+        border-radius: 7px 7px 7px 7px;
+        -moz-border-radius: 7px 7px 7px 7px;
+        -webkit-border: 7px 7px 7px 7px;
+    }
+
+    .form_settings textarea, .form_settings select
+    {
+        font: 100% arial;
+        width: 299px;
+    }
+
+    .form_settings select
+    {
+        width: 310px;
+    }
+
+    .form_settings .checkbox
+    {
+        margin: 4px 0;
+        padding: 0;
+        width: 14px;
+        border: 0;
+        background: none;
+    }
+
+.separator
+{
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #D9D5CF;
+    border-bottom: 1px solid #FFF;
+    margin: 0 0 20px 0;
+}
+
+/* scroll to top */
+#scroll
+{
+    position: relative;
+    width: 900px;
+    margin: 10px auto;
+    bottom: 15px;
+    right: 0;
+    background: red;
+    padding: 0;
+}
+
+    #scroll a
+    {
+        float: right;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+        #scroll a img
+        {
+            float: right;
+            padding: 0 0 0 0;
+            margin: 0;
+        }
+
+/** Stylesheet for SooperFish by www.SooperThemes.com 
+	Author: Jurriaan Roelofs **/
+
+/* configuration of menu width */
+html body ul.sf-menu ul, html body ul.sf-menu ul li
+{
+    width: 200px;
+}
+
+    html body ul.sf-menu ul ul
+    {
+        margin: 0 0 0 200px;
+    }
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu, ul.sf-menu *
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul.sf-menu
+{
+    display: block;
+    position: relative;
+}
+
+    ul.sf-menu li
+    {
+        display: block;
+        list-style: none;
+        float: left;
+        position: relative;
+    }
+
+        ul.sf-menu li:hover
+        {
+            visibility: inherit; /* fixes IE7 'sticky bug' */
+        }
+
+    ul.sf-menu a
+    {
+        display: block;
+        position: relative;
+    }
+
+    ul.sf-menu ul
+    {
+        position: absolute;
+        left: 0;
+        width: 150px;
+        top: auto;
+        left: -999999px;
+    }
+
+        ul.sf-menu ul a
+        {
+            zoom: 1; /* IE6/7 fix */
+        }
+
+        ul.sf-menu ul li
+        {
+            float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+            width: 150px;
+        }
+
+        ul.sf-menu ul ul
+        {
+            top: 0;
+            margin: 0 0 0 150px;
+        }
+
+            ul.sf-menu li:hover ul, ul.sf-menu li:focus ul, ul.sf-menu li.sf-hover ul,
+            ul.sf-menu ul li:hover ul, ul.sf-menu ul li:focus ul, ul.sf-menu ul li.sf-hover ul,
+            ul.sf-menu ul ul li:hover ul, ul.sf-menu ul ul li:focus ul, ul.sf-menu ul ul li.sf-hover ul,
+            ul.sf-menu ul ul ul li:hover ul, ul.sf-menu ul ul ul li:focus ul, ul.sf-menu ul ul ul li.sf-hover ul
+            {
+                left: auto;
+            }
+
+                ul.sf-menu li:hover ul ul, ul.sf-menu li:focus ul ul, ul.sf-menu li.sf-hover ul ul,
+                ul.sf-menu ul li:hover ul ul, ul.sf-menu ul li:focus ul ul, ul.sf-menu ul li.sf-hover ul ul,
+                ul.sf-menu ul ul li:hover ul ul, ul.sf-menu ul ul li:focus ul ul, ul.sf-menu ul ul li.sf-hover ul ul,
+                ul.sf-menu ul ul ul li:hover ul ul, ul.sf-menu ul ul ul li:focus ul ul, ul.sf-menu ul ul ul li.sf-hover ul ul
+                {
+                    left: -999999px;
+                }
+
+/* autoArrows CSS */
+span.sf-arrow
+{
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    display: block;
+    background: url(../images/arrows-black.png) no-repeat 0 0;
+    overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+    font-size: 1px;
+}
+
+ul ul span.sf-arrow
+{
+    right: 10;
+    top: 20px;
+    background-position: 0 100%;
+}
+
+/* Theming the menu */
+ul#nav
+{
+    float: left;
+}
+
+    ul#nav ul
+    {
+        background: #eee;
+        margin-top: 0;
+        border: 1px solid #ddd;
+    }
+
+    ul#nav li a
+    {
+        padding: 9px 25px 10px 25px;
+        font: 155% 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+        text-shadow: 1px 1px #FFF;
+        text-decoration: none;
+        color: #444;
+    }
+
+        ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected
+        {
+            background: #FFF;
+        }

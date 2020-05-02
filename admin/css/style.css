@@ -1,0 +1,884 @@
+@charset "utf-8";
+
+* {
+   		 	-webkit-box-sizing:border-box; 
+   		 	-moz-box-sizing:border-box; 
+   		 	-ms-box-sizing:border-box; 
+   		 	-o-box-sizing:border-box;
+		 	-box-sizing:border-box; 
+  }
+  
+@font-face
+{
+    		font-family:Exo-Bold;
+    		src:local("Exo-Bold"), url('../../fonts/Exo-Bold.otf');
+}
+
+html,body {
+			height:100%;
+			margin:0;
+			padding:0;
+			font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	      }
+
+body > header {
+			position:fixed;
+			top:0;
+			width:100%;
+			height:50px;
+			margin:0 0 2% 0;
+			padding:0;
+			overflow:hidden;
+			z-index:20;
+			color:#FFFFFF;
+			background-image:url(../images/blackheader.jpg);
+			  }
+
+body > header > h1,a {
+			margin:14px 0 15px 4px;
+			text-decoration:none;
+			font:normal 16px Exo-Bold;
+			color:#FFFFFF;
+				     } 	
+				     
+body > header a {
+			font:normal 16px Chalkduster;
+				}
+				   
+body > header > div { 
+			position:absolute;  
+			top:14px; 
+			right:70px;
+			font:normal 16px Exo-Bold;
+					}
+					
+body > header > a img{
+			position:absolute;  
+			top:10px; 
+			right:10px;
+			width:30px;
+			height:28px;
+			border:none;
+					 }
+						
+body > header > a > img:hover { 
+			cursor:pointer;
+			border-radius:2px;
+    		-moz-border-radius:2px;
+    		-webkit-border-radius:2px;
+    		-o-border-radius:2px;
+    		background-color:#555;	
+							  }
+						
+     
+body #sideNavi {
+			position:fixed; 
+			top:50px; 
+			left:0;
+			width:13%;
+			height:100%;
+			background-color:#002222;
+			   }
+
+body #sideNavi > nav > ul {
+			position:fixed;
+			width:13%;
+			margin-top:80px;
+			padding:0 0 0 2px;
+			list-style:none;
+						  }
+
+body #sideNavi > nav > ul > li{
+			margin-top:5px;
+			padding:7px 0 5px 7px; 
+			font:bold 15px "Helvetica Neue",Helvetica,Arial,sans-serif;	
+			color:#FFFFFF;
+						      }
+				   
+body #sideNavi > nav > ul li:hover {
+			transition:background-color 1.2s;	
+			cursor:pointer;					     
+			color:#002222;
+			background-color:#FFFFFF;
+								   }
+
+
+/* homepage with world clock & text */
+#homePage {}
+/*			  
+#homePage #worldclock > iframe {
+			position:absolute; 
+			bottom:100px; 
+			right:10px;
+			width:720px;
+			height:375px; 
+			margin:0;
+			padding:0;
+								}
+								
+*/								
+
+#homePage #worldclock > iframe {
+	position:absolute;
+	/* bottom:100px; */
+	top:10%;
+	left:16.5%;
+	width:80%;
+	height:90%;
+	margin:0;
+	padding:0;
+	}								
+		
+.fieldOff {
+			display:none;
+			border:none;
+          }
+          		   
+.fieldOn {
+			display:block;
+			border:none;
+         }
+         
+
+/************************** Main CMS ****************************/
+#mainCMS {
+			width:88%;
+			margin:5% 10px 1% 12%;
+			border:none;
+	     }
+
+
+#mainCMS #busModel, #city, #route, #timeTable, #passengerList, #stats ,#bookingTable {
+			margin-top:5px;
+			padding:10px 0 10px 15px;
+			border:1px solid #EEEEEE;
+			border-radius:5px;
+    		-moz-border-radius:5px;
+    		-webkit-border-radius:5px;
+    		-o-border-radius:5px; 
+			background-color:#FFFFFF;	
+}
+
+#mainCMS #busModel h3, #city h3, #route h3, #timeTable h3, #passengerList h3, #stats h3 {
+			margin:0;
+			padding:5px 0 10px 15px;
+			font:bold 20px "Chalkduster";   /*or: font:bold 1.17em "Helvetica Neue",Helvetica,Arial,sans-serif;*/			
+} 
+
+				  
+/**** models & buses ****/
+#mainCMS #bus {
+			margin-top:7px;
+			  }
+			  
+#mainCMS #bus > fieldset {
+			max-width:45%;
+						 }
+
+#mainCMS #bus select {
+			margin:0;
+			padding:0;
+			  }
+
+#mainCMS #busMainButtons  {
+			float:right;
+			padding:0;
+						  }
+						  
+#mainCMS #busModelList {
+			width:150px;
+			float:left;
+				  	   }
+	  
+#mainCMS #busModelMain, #addBusModelField, #editBusModelField {
+			height:78px;
+			padding:15px auto 10px auto;
+			border-bottom:1px solid #ccc;
+					   }
+					   
+#mainCMS #busModelMain > legend, #addBusModelField > legend, #editBusModelField > legend {
+			padding-top:10px;
+			font-size:18px;
+								}
+
+#mainCMS #busMain > legend, #addBusField > legend, #editBusField > legend {
+			padding-top:10px;
+			font-size:18px;
+						   												  }
+														   		
+#mainCMS #addBusModel, #delBusModel, #editBusModel{
+			float:left;
+ 												  }
+
+
+/******** cities & stations ********/   
+#mainCMS #cityMain, #addCityField, #editCityField {
+			height:78px;
+			padding:15px auto 10px auto;
+			border-bottom:1px solid #ccc;
+				   }
+				   
+#mainCMS #cityMain > legend, #addCityField > legend, #editCityField > legend {
+			padding-top:10px;
+			font-size:18px;
+							}
+
+#mainCMS #cityList {
+			float:left;
+			width:150px;
+			margin-right:33px;
+				   }
+
+#mainCMS #cityMainButtons {
+			float:left;
+						  }
+ 
+#mainCMS #addCity, #delCity, #editCity {
+			float:left;
+ 									   }
+
+#mainCMS #station {
+			margin-top:7px;
+				  }
+				  
+#mainCMS #station > fieldset {
+			max-width:45%;
+						 	 }
+
+#mainCMS #stationList {
+			width:150px;
+					  }
+				  				  
+#mainCMS #stationMain > legend, #addStationField > legend, #editStationField > legend {
+			padding-top:10px;
+			font-size:18px;
+																					  }
+																					  
+#mainCMS #addStationField > input:first-of-type, #editStationField > input:first-of-type {
+			min-width:150px;
+																						 }
+
+#mainCMS  #stationMainButtons{
+			float:right;
+							 }
+ 
+#mainCMS  #addStation, #delStation, #editStation{
+			float:left;
+ 												}
+ 												
+ 												
+/******** routes & rides ********/
+#mainCMS #route #ridesMainTableWrap {
+			padding:20px 0 0 0;
+					}
+
+#mainCMS #route #ridesMainTableWrap legend {
+			padding:5px 0 20px 15px;
+			font-size:18px;
+										   }
+					
+#mainCMS #route #newRouteMain {
+			width:100%;
+			min-height:78px;
+			padding:15px 0 10px 13px;
+			border-bottom:1px solid #ccc;
+							  }
+
+#mainCMS #route #newRouteMain > fieldset:first-of-type {
+			float:left;
+			width:150px;
+			padding:5px 0 10px 0;
+										 			   }
+	
+#mainCMS #route #newRouteMain > fieldset > legend {
+			font-size:18px;
+												  }	
+	
+	
+#mainCMS #route #newRouteMain #newRoute {
+			max-width:60%;
+			padding:0;
+									    }
+
+#mainCMS #route #newRouteMain #newRoute > legend {
+			padding-bottom:5px;
+												 }
+									    
+#mainCMS #route #newRouteMain #newRoute #selectNumberOfStations {
+			position:absolute;
+																}
+	
+#mainCMS #route #newRouteMain #newRoute #tdSelectStations {
+			display:inline-block;
+			margin:-16px 0 0 200px;
+														  }	
+														  
+#mainCMS #route #newRouteMain #newRoute #butSaveNewRoute {
+			float:right;
+											   			 }
+
+#mainCMS #route .ridesMainTable {
+			width:100%;
+			padding-left:1%;
+			text-align:left;
+								}
+								
+#mainCMS #route .ridesMainTable > tbody > tr > td:nth-child(1),td:nth-child(2) {
+			width:170px;
+																			   }
+
+#mainCMS #route .ridesMainTable > tbody .newRideButton {
+			width:80px;
+			margin-left:1%;
+			padding:4px;
+			color:#FFFFFF;
+			border:1px solid #00688B;
+			border-radius:3px;
+			background-color:#4682B4;
+													   }
+
+#mainCMS #route .ridesMainTable > tbody .newRideButton:hover {													   
+			background-color:#00688B;
+															 }
+#mainCMS #route .ridesMainTable > tbody .newRideButton:hover, .dbButton:hover {
+			cursor:pointer; 
+															 				  }
+											
+#mainCMS #route .ridesMainTable > tbody > tr > td > fieldset {
+			width:80%;
+			margin:20px 11% 20px 9%;
+			padding:10px auto 5px 4%;
+			border-radius:3px;
+    		-moz-border-radius:3px;
+    		-webkit-border-radius:3px;
+    		-o-border-radius:3px;
+			background-color:#F8F8F8;
+															 }
+
+#mainCMS .ridesMainTable .routeListHeader {
+			width:100%;
+			padding-left:4px;
+			font-size:22px;
+			font-weight:normal;
+			border-bottom:1px solid #ccc;
+						  				  }
+
+																			   
+#mainCMS #route .ridesMainTable .carinfo {
+			padding-top:10px;
+			padding-bottom:10px;
+										 }
+
+#mainCMS #route .ridesMainTable .onlineinfo {
+			font-size:18px;
+			font-weight:bold;
+			color:#00CD00;
+											}
+											
+#mainCMS #route .ridesMainTable .cancelinfo{
+			font-size:18px;
+			font-weight:bold;
+			color:#CD3333;
+										   }
+
+
+/******** timetables ********/
+#mainCMS #timeTable {}
+
+#mainCMS #tableHeader {
+			margin:15px auto 15px 15px;
+			font-size:18px;			
+					  }
+					  
+#mainCMS #tableHeader > input:last-of-type:hover {
+			cursor:pointer;
+												 }
+
+#mainCMS #tableTimeTable {
+			width:97%;
+			margin:20px 10px 20px 10px;
+			text-align:left;
+						 }
+		    
+#mainCMS #tableTimeTable thead > tr > td, tbody > tr > td {
+			padding-left:3px;
+		    											  }
+		    											  
+#mainCMS #tableTimeTable tbody > tr > td:nth-child(6),td:nth-child(7){
+			text-align:center;
+																	 }
+		    											  	
+#mainCMS #tableTimeTable tbody > tr:hover {
+			cursor:pointer;
+			color:#fff;
+			background-color:#4682B4;
+								 		  }
+
+#mainCMS #tableTimeTable .white {
+			background-color:#FFFFFF;
+       							}
+	   
+#mainCMS #tableTimeTable .grey	{
+		  	background-color:#EEEEEE;
+								}
+
+#mainCMS .timetable_ride {
+			cursor:pointer;
+						 }
+
+#mainCMS .dateField  ,.dateField_search, .dateField_timetable{
+			width:80px;
+			padding:0 4px 0 4px;
+					}
+
+#mainCMS .priceField{
+			width:35px;
+					}
+					
+#mainCMS .PastRide {
+			opacity:0.5;	
+		  		   }
+
+#mainCMS .activeRide{
+			background-color:#DDFAB9;
+					}
+
+
+/********** booking *********/		  
+#booking {	
+			padding:0 0 0 15px;	
+		 }
+
+#booking > h3 {
+			margin:0;
+			padding:5px 0 30px 0;
+			font:bold 20px "Chalkduster";
+			  }
+
+#booking #bookstatData {
+			width:70%;
+			margin:0 16% 0 14%; 
+			   		   }
+				     				     
+#booking #bookstatData #label-from { 
+			padding-right:7px;
+					 			   }
+					 
+#booking #bookstatData #label-depart {
+			padding-right:3px;
+				   					 }
+					 
+#booking #bookstatData #label-bus { 
+			padding-right:4px;
+								  }
+
+#booking #bookstatData div .left-list, .center-list, .right-list {
+			list-style:none;
+			display:inline-block;
+											   				     } 
+									   		 
+#booking #bookstatData .left-list {
+			float:left;
+			padding-left:25px;
+		  		    			  }	 
+
+#booking #bookstatData .right-list{
+			float:right;
+			padding-right:25px;
+		   						  }
+				  	  
+#booking #bookstatData li > input {
+			width:145px;
+			margin:0;
+			font-size:12px;
+            color:#002255;                
+								  }
+								  				  
+#booking #freeSeatlist {
+			width:100%;
+			padding:10px 0 10px 0;
+			list-style:none;
+			text-align:center;
+			font:bold 18px arial,sans-serif;
+			color:#002255;
+			border-bottom:1px solid #ccc;
+					   }
+					   
+					   
+#booking #bookingsHeader {
+			width:110px;
+						 }
+
+#booking #newBookHeader,#newBookHeader2 {
+			width:140px;
+						}
+						
+#booking #bookingsHeader, #newBookHeader,#newBookHeader2 {
+			margin:0 0 7px 0;
+			padding:4px;
+			display:inline-block;
+			text-align:center;
+			font-size:14px;
+			color:#FFFFFF;
+			border:1px solid #ccc;
+			border-radius:3px;
+			-webkit-border-radius:3px;
+            -moz-border-radius:3px;
+            -ms-border-radius:3px;
+            -o-border-radius:3px;
+			background-color:#4682B4;
+										 }
+						
+#booking #bookingsHeader:hover, #newBookHeader:hover,#newBookHeader2:hover {
+   			background-color:#00688B;
+			cursor:pointer;
+													 }
+													 
+#booking #nobookinfo {
+			margin:0;
+			padding:13px 0 20px 0;
+						}
+
+	       												       								   
+#booking .bookingsTable {
+			width:100%;
+			margin:25px 0 25px 0;
+			padding:0;	 
+			font:normal 12px arial, sans-serif;	
+						}
+
+#booking .bookingsTable thead tr th {
+			text-align:left;
+			font:normal 14px arial, sans-serif;
+			border-bottom:1px solid #BBBBBB;	
+									}
+
+#booking .bookingsTable thead tr th:nth-child(12){
+			text-align:center;
+										   		 }
+
+#booking .bookingsTable > tbody tr td {
+			width:auto;
+			text-align:left;
+								      }
+								      
+#booking .bookingsTable > tbody tr {
+			background-color:#F7F7F7;
+								   }
+									  
+#booking .bookingsTable > tbody tr:hover {
+			cursor:default;
+			color:#FFFFFF;
+			background-color:#4682B4;
+										 }
+										  
+#booking .bookingsTable tbody > tr > td:nth-child(8){
+			text-align:center;
+													}
+																	 
+#booking .btn_cancelBooking, .btn_editBooking  {
+			width:75px;
+											   }
+							
+
+#booking #frm_newbooking{
+			margin:0;
+			padding:10px 0 0 0;
+			 			}
+			 					
+#booking #frm_newbooking > div > h3 {
+			margin:0;
+			padding:10px 0 15px 0;
+			font-size:18px;
+			font-weight:normal;
+				   					}
+				   					
+#booking #frm_newbooking > div > ul {
+			width:70%;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			list-style:none;
+				  					}
+				  							
+#booking #frm_newbooking > div > ul > li {
+			float:left;
+			padding-right:7px;
+										}
+
+#booking #frm_newbooking > div > ul > li > label {
+			padding-top:5px;
+			font-size:12px;
+												 }
+
+#booking #frm_newbooking #txt_adults,#txt_kids,#txt_priceTotal { 
+			width:40px;
+															   }
+															   
+
+#booking #passengers {
+			padding:20px 0 0 0;
+			text-align:left;
+					 }
+					 
+#booking #passengers #adults > ul, #kids > ul {
+			margin:0;
+			padding:7px 0 0 0;
+			list-style:none;
+											  }
+
+#booking #passengers #adults > ul > li, #kids > ul > li {
+			margin:0;
+			padding:0;
+			font-size:12px;
+														}
+
+#booking #passengers #adults > ul > li > input, #kids > ul > li > input {
+			padding-right:3px;
+																		}
+	  													 
+#booking #passengers #kids > ul:first-of-type > li:nth-child(1) {
+			padding-top:10px;
+												   			    }
+
+												   			    
+#booking #list_nb_customer { 
+			width:30%;
+			margin:0;
+			padding:0;
+			list-style:none;
+						   }
+						   
+#booking #list_nb_customer > h3 {
+			margin:0;
+			padding:10px 0 15px 0;
+			font-size:18px;
+			font-weight:normal;
+				   				}
+						   
+#booking #list_nb_customer > li {
+			margin:0;
+			padding-top:7px;
+			display:inline-block;
+			
+								}
+
+#booking #list_nb_customer > li:first-of-type {
+			padding:0 25px 0 2px;
+											  }								
+					
+#booking #list_nb_customer > li span {
+			display:inline-block;
+			padding:0 3px 0 3px;
+			font-size:14px;
+									 }
+
+#booking #list_nb_customer > li > input {
+			margin:0;
+										}
+										 
+#booking #frm_btns {
+			margin:25px 0 15px 0;
+				   }
+
+#booking #frm_btns > input {
+			width:auto;
+			margin:0;
+			padding:4px;
+			font-size:14px;
+			color:#FFFFFF;
+			border:1px solid #ccc;
+			border-radius:3px;
+			-webkit-border-radius:3px;
+            -moz-border-radius:3px;
+            -ms-border-radius:3px;
+            -o-border-radius:3px;
+			background-color:#4682B4;
+						   }
+						   
+#booking #frm_btns > input:hover {
+   			background-color:#00688B;
+			cursor:pointer;
+								 }
+								 
+#booking #frm_btns #btn_cancel_new_booking {
+			background-color:darkred;
+								 }
+
+
+/**** passenger lists ****/
+#passengerSearchHeader {
+			padding:20px 0 20px 15px;
+					   }
+
+#passengerSearchForm {
+			font-size:18px;
+					 }	
+					 
+.passListWrapper {			
+			display:none; 
+				 }
+				
+.passListWrapper > header > h1 {
+			margin:25px 0 10px 0;
+							   }				   
+						 	   
+.passengerRides {
+			width:90%;
+			margin:7px 6% 0 4%;
+			padding:5px 15px 5px 15px;
+			cursor:pointer;
+			color:#FFFFFF; 
+			border:1px solid #E2C8E3;
+			border-radius:5px;
+    		-moz-border-radius:5px;
+    		-webkit-border-radius:5px;
+    		-o-border-radius:5px;
+			background-color:#CCCCCC;
+			    }	  
+
+.passengerRides_cancelled{
+			background-color:red;
+}	 		   
+			   
+.passengerRides:hover { 
+			color:#002255; 
+					  }
+				 		  
+.passListDates {
+			margin:10px 0 10px 0;
+			   }
+
+.passListTable{
+			width:90%;
+			margin:2% auto 2% 4%;
+			padding:0;
+			  }
+
+.passListTable > thead{
+			font-weight:bold;
+					  }
+
+.passListTable > thead > tr > td{
+			border-bottom:1px solid #ccc;
+								}
+
+.passListTable > tbody {
+			margin-top:5px;
+					   }
+					   
+.passListTable > tbody tr {
+			background-color:#F8F8F8;
+								   }
+								   
+.cancelled{
+			color:red;
+		  }					  
+					  
+.passList_pdf_but img{
+			max-width:50px;
+			max-height:50px;
+			margin:0 0 15px 90%;
+					 }					   
+		   
+.passList_pdf_but img:hover {
+			cursor:pointer;
+							}
+
+/**** statistics ****/
+#mainCMS #stats {
+			width:100%;
+			margin:5px 0 0 0;	
+				}
+
+#mainCMS #webalizerHeader {
+			width:120px;
+			margin:15px 0 15px 15px;
+						  }
+						  
+#mainCMS #clickCounterHeader {
+			width:150px;
+			margin:15px 0 15px 0;
+						     }
+				
+#mainCMS #webalizerHeader,#clickCounterHeader {
+			padding:4px;
+			display:inline-block;
+			text-align:center;
+			font-size:14px;
+			color:#FFFFFF;
+			border:1px solid #ccc;
+			border-radius:3px;
+			-webkit-border-radius:3px;
+            -moz-border-radius:3px;
+            -ms-border-radius:3px;
+            -o-border-radius:3px;
+			background-color:#4682B4;
+											  }	
+						
+#mainCMS #webalizerHeader:hover,#clickCounterHeader:hover {
+   			background-color:#00688B;
+			cursor:pointer;
+													 	  }
+							
+/* webalizer */
+#mainCMS #webalizer {
+			width:100%;
+			height:700px;
+			margin-top:5px;
+			background-color:#FFFFFF !important;
+					}
+					
+#mainCMS #webalizer iframe {
+			width:100%;
+			height:100%;
+			border:none;
+						   }
+						   
+/* mfg clickcounter */
+#mainCMS #clickCounter iframe {
+			width:100%;
+			min-height:50%;
+			border:none;
+							  }
+							  
+#tableClickCounter { 
+			width:100%;
+			margin:0; 
+			padding:25px 0 50px 0; 
+				   }
+
+#tableClickCounter > h2 {
+			margin:0;
+			padding:0 0 0 10px;
+			text-align:left;
+			font-size:22px;
+						}
+						
+#tableClickCounter > h4 {
+			margin:0;
+			padding:5px 0 20px 10px;
+			text-align:left;
+			font-size:16px;
+			border-bottom:1px solid #ccc;
+						}
+	
+#tableClickCounter > table {
+			width:90%;
+			margin:20px 5% 0 5%;
+						   }
+					
+#tableClickCounter > table > thead > tr > th { 
+			text-align:center;
+			font-size:18px;
+}	
+	    		
+#tableClickCounter > table > tbody > tr > td { 
+			padding:5px 0 5px 0; 
+			text-align:center;  
+			background-color:#F8F8F8;
+}						 
+
+#tableClickCounter > table > tbody > tr > td:nth-child(2){
+			min-width:400px;
+}

@@ -1,0 +1,8 @@
+.ui-datepicker {
+				position:absolute !important; 
+				top:77.5% !important;
+				left:38.1% !important;		
+				width:17em !important;
+				border:1px solid #ccc;
+				background:#fff !important;
+			}

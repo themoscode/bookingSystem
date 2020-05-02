@@ -1,0 +1,402 @@
+* { margin:0; padding:0; }
+
+/* give A4-format parameters to the body - will follow */
+body 
+{		/*
+		width:
+		height:   */
+        font: normal .85em arial, sans-serif;
+    	color: #555;
+   		background: #FFFFFF !important;
+   		background:#aaa !important; /* to be deleted */
+		
+}
+
+#pageWrapper {
+					height:1000px;
+        			width:900px;
+        			margin:25px auto 25px auto;
+        			padding:20px;		
+        			background:#FFFFFF;
+					
+			 }
+
+#pageWrapper > div > h1 {
+					width:100%;
+					margin:25px 0 20px 0;
+					font:normal 30px arial, sans-serif;
+					text-align:center;
+					text-transform: none;
+    				text-shadow:1px 1px #FFF;
+    				color:#444;
+  				        }
+     
+#pageWrapper > div > figure {
+					width:940px;
+					height:1px;
+					margin:0 0 33px -20px;
+				   	border-top:1px dashed #ccc;
+				   	        }
+				   	    
+				 	    
+/********* Reservation-Confirmation + Ticket (download & print in PDF-format *********/
+
+#bookingConfirmation {
+					height:450px;
+					width:880px;
+					margin:25px auto 70px auto;
+					padding:0;
+					 }
+
+#bookingConfirmation > header {
+					width:100%;
+					height:70px;
+					margin:0;
+					padding:0;
+							  }
+
+#bookingConfirmation > header > img {
+					float:left;
+					width:220px;
+					display:inline-block;
+					margin:0;
+					padding:0;
+									}
+
+#bookingConfirmation > header > h1 {
+					max-width:180px;
+					display:inline-block;
+					margin:0 auto 0 55px;
+					font:normal 32px arial, sans-serif;
+    				text-shadow: 1px 1px #FFF;
+    				color: #444;
+								   }
+
+#bookingConfirmation > header > .bookingDate {
+					float:right;
+					display:inline-block;
+								             }
+			 		  
+#bookingConfirmation > header > .bookingDate > p {
+					float:right;
+					margin:0;
+					padding:0;
+					font-size:12px;
+								 	             }
+
+#bookingConfirmation > header > .bookingDate > p > span {
+					float:right;
+					font:bold 18px arial, sans-serif;	
+														}
+
+#bookingConfirmation > hr {
+					background-color:#93d051;
+						  }
+
+#bookingConfirmation > div { 
+					height:200px; 
+					margin:25px 0 0 0;
+						   }
+
+#bookingConfirmation > div > div {
+					width:250px;
+					height:300px;
+					display:inline-block;
+					margin:0;
+					padding:10px;
+					font:normal 22px arial, sans-serif;							
+					background:#F8F8F8 !important;
+								 }
+								 
+#bookingConfirmation > div > div:first-of-type { 
+					float:left;
+					margin-right:35px;
+											   }
+											   
+#bookingConfirmation > div > div:last-of-type { 
+					float:right;
+					margin-left:10px;
+											  }
+								 
+#bookingConfirmation > div > div > h2 { 
+					margin:0 0 35px 0;
+					font:normal 26px arial, sans-serif;
+    				text-shadow: 1px 1px #FFF;
+    				color: #555; 
+									  }
+									  
+#bookingConfirmation .adultPassName, .childPassName {
+					font:normal 24px arial, sans-serif;
+													}
+											  
+#bookingConfirmation .from_dates {
+					margin:0 0 25px 0;
+								 }
+											  
+#bookingConfirmation .from_dates > h2:first-of-type {
+					margin:0 0 35px 0;
+					font:normal 26px arial, sans-serif;
+													}
+																			  
+#bookingConfirmation .from_dates > label {
+					font:bold 18px arial, sans-serif;
+					color:#444;
+									     }
+									     
+#bookingConfirmation .from_dates > h2 {
+					font:normal 26px arial, sans-serif;
+									  }
+
+#bookingConfirmation .to_dates > label {
+					font:bold 18px arial, sans-serif;
+					color:#444;
+									   }
+
+#bookingConfirmation .to_dates > h2 {
+					font:normal 26px arial, sans-serif;
+									}
+
+#bookingConfirmation .bookingNumber {
+					height:50px;
+					margin:0 0 20px 100px;
+									} 
+													
+#bookingConfirmation .bookingNumber > p {
+					float:right;
+					font-size:18px;
+					color: #555;
+									    }
+											  
+#bookingConfirmation .bookingNumber > p > span {
+					float:right;											  
+					font:bold 18px arial, sans-serif; 
+											   }
+
+#bookingConfirmation > div > div > div > p {
+					margin-bottom:10px;
+					font-size:14px;
+									 	   }
+									 	   
+#bookingConfirmation > div > div > div > p > a {
+					margin:0;
+					text-decoration:underline;
+					font-size:14px;
+					color:inherit;
+									 	   	   }
+
+#bookingConfirmation footer > p {
+					float:right;
+					margin:10px 0 0 20px;
+					font:normal 9px arial, sans-serif;		
+					color:inherit;
+		   						}					
+
+
+/********************* Ticket *********************/
+#ticket {
+					width:880px;
+					height:350px;
+					margin:10px auto 0 auto;
+					padding:0;
+					border:1px solid #ccc;
+					background:#fff;
+					-webkit-border-radius:7px;
+                  	-moz-border-radius:7px;
+                  	-ms-border-radius:7px;
+                  	-o-border-radius:7px;
+                  	border-radius:7px;
+		}
+
+#ticket > header {
+					width:100%;
+					height:75px;
+					margin:0;
+					padding:0;
+					border-bottom:1px solid #ccc;
+					background:#F1F1F1 !important; /* #F2F2F2 / #F5F5F5 / #228B22 / #008B00 */
+				 }
+				 
+#ticket > header > #ticketlogo {					
+					margin:0;
+					padding:7px 20px 0 10px;
+					   		   }
+
+#ticket > header > #buslogo {	
+					float:right;			
+					margin:0;
+					padding:15px 23px 0 0;
+							}
+							
+/* Ticket-data */					
+#ticket .ticketdata {
+					float:left;
+					width:580px;
+					height:254px;
+					margin:0;
+					padding:10px 0 0 30px;
+					}
+	
+#ticket .ticketdata .from_dates {			
+					margin:0;
+					padding:40px 10px 10px 10px;
+								}
+										
+#ticket .ticketdata > .from_dates > div {
+					width:270px;
+					margin:0 7px 7px 0;											
+					display:inline-block;
+										}
+
+#ticket .ticketdata .from_dates > div:last-of-type {
+					float:right; 
+												   }
+
+#ticket .ticketdata .from_dates > div > label { 
+                    font-size:16px;    
+                  	font-weight:bold;
+					color:#93D051;       
+                  	cursor:default;
+											  }
+											  		  
+#ticket .ticketdata > .from_dates > div > h2 {
+					margin:3px 0 0 0;
+					padding:0;
+					font-size:20px;	
+					font: normal 150% arial, sans-serif;		
+											 }
+													 
+#ticket .ticketdata .from_dates > div > hr {
+					margin-top:20px;
+					width:200px;
+										   }
+
+#ticket .ticketdata .to_dates {
+					margin:0;
+					padding:10px;
+							  }
+											  		  
+#ticket .ticketdata > .to_dates > div {
+					width:270px;
+					margin:0 7px 7px 0;											
+					display:inline-block;
+									  }
+
+#ticket .ticketdata .to_dates > div:last-of-type {
+					float:right; 
+												 }
+														 
+#ticket .ticketdata .to_dates > div > label { 
+                    font-size:16px;    
+                  	font-weight:bold;
+					color:#93D051;       
+                  	cursor:default;
+											}
+											  		  
+#ticket .ticketdata > .to_dates > div > h2 {
+					margin:3px 0 0 0;
+					padding:0;
+					font-size:20px;
+					font:normal 150% arial, sans-serif;
+										   }
+
+#ticket .ticketdata > section {
+					width:560px;
+					height:50px;
+					margin:0;
+					padding:10px 10px 5px 10px;
+							  }
+							  
+#ticket .ticketdata > section > hr {
+					width:auto;
+					margin-bottom:7px;
+								   }
+
+#ticket .ticketdata > section > p {
+					margin:0;
+					padding:0;
+					line-height:1.3em;
+					font-size:9px;
+					font-family:default;
+								  }
+								  
+#ticket .ticketdata > section > p:last-of-type { 
+					padding-top:5px; 
+											   }
+											  	
+/* Side-Box */
+#ticket .ticketSidebox  {
+					float:right;
+					width:230px;
+					height:215px;
+					margin:0;
+					padding:50px 10px 10px 10px;
+					border-left:1px dashed #ccc;
+			 	   		}
+	 			 		  
+#ticket .ticketSidebox > .passengerPrices {
+					height:60px !important;
+										  }
+	 			 		  
+#ticket .ticketSidebox > div > h2 { 
+					margin:0;
+					font-size:16px;    
+           			font-weight:bold;
+					color:#93D051;       
+                  	cursor:default;
+  						     	  }
+
+#ticket .ticketSidebox > div > h3 {
+					padding:10px 0 5px 0;
+					font-size:20px;
+					font-weight:bold;
+					color:#555;
+					font-family:inherit;
+						          }
+						   		
+#ticket .ticketSidebox > div > h3 > span {
+					float:right;								
+					margin-right:15px;
+									     }
+						      
+#ticket .ticketSidebox > hr { 
+					width:220px;
+					        }
+							  
+#ticket .ticketSidebox > div > p {
+					margin:0;
+					padding-top:5px;	
+					font-size:13px;
+					font-weight:normal;
+					color:#555;
+						  	     }
+				
+#ticket .ticketSidebox > div > p > span {
+					float:right !important;								
+					margin-right:15px;
+					font-size:17px;
+					font-family:default;
+					font-weight:bold;
+					color:#555;								 
+								        }
+
+#ticket .ticketSidebox > #info { 
+					padding:40px 0 16px 0;
+						       }
+								 	  
+#ticket .ticketSidebox > #info > div {								 	 
+					line-height:1.3em;
+					font-size:9px;
+					font-family:default;		 	  
+									 }
+								   
+#ticket .ticketSidebox > .bookingNumber {
+					width:100%;
+					height:40px;
+								        }
+			 		  
+#ticket .ticketSidebox .bookingNumber > p {
+					float:right;
+					margin:0;
+					padding:0;
+					font-size:11px;
+								 	      }

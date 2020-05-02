@@ -1,0 +1,8 @@
+TRUNCATE `basket`;
+TRUNCATE `booking`;
+TRUNCATE `book_passenger`;
+TRUNCATE `book_user`;
+TRUNCATE `route`;
+TRUNCATE `route_station_details`;
+TRUNCATE `route_station_order`;
+TRUNCATE `unique_route`;

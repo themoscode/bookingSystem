@@ -1,0 +1,1842 @@
+# Webalizer V2.23-05 Incremental Data - 01/12/2014 23:41:48
+2014 1 12 23 41 48
+7745 5152 372 69 78 102 323009075 973 434 0
+32 1 749 1 12
+453 372 21972793 28 65 33
+539 389 23870511 39 61 30
+612 515 33107576 31 75 29
+906 600 38037036 35 114 48
+721 666 45864160 44 94 31
+766 551 36295117 37 88 46
+1212 464 30019021 25 91 26
+299 264 16429757 29 88 34
+575 445 27777969 40 71 50
+196 172 9200887 39 42 41
+1159 495 35779422 71 111 35
+307 219 4654826 32 73 32
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+195 167 9619154 24
+326 209 14710693 54
+130 108 4904912 33
+86 67 3448674 31
+19 10 172210 10
+82 69 2881861 29
+148 133 6761534 18
+126 68 4117371 29
+146 115 7847006 15
+244 225 16158795 23
+223 194 7523277 59
+172 128 6109821 27
+416 215 12390049 51
+342 317 20475636 34
+455 336 22529804 43
+389 372 25350062 36
+309 224 13690961 32
+331 305 15327881 68
+457 369 21692098 46
+331 308 22290956 35
+1076 409 26735137 71
+595 410 26863191 69
+906 227 20644526 80
+241 167 10763466 56
+0
+0
+0
+5152
+0
+0
+0
+0
+0
+648
+0
+0
+0
+0
+1834
+0
+0
+0
+0
+0
+4
+107
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/images/frankfurt-dusseldorf.png
+1 140 0 23883029 0 0
+/images/btns-next-prev.png
+1 121 0 83592 0 0
+/images/ferbusverbindungen.png
+1 58 0 4712625 0 0
+/images/berlin-frankfurt.png
+1 140 0 22458777 0 0
+/Liniennetz.html
+0 78 0 202904 20 9
+/images/_1.jpg
+1 45 0 1783296 0 0
+/images/1.jpg
+1 46 0 732168 0 0
+/images/mail.png
+1 203 0 896940 0 0
+/images/berlin-mainz.png
+1 139 0 22091304 0 0
+/images/frankfurt-berlin.png
+1 143 0 25144264 0 0
+/images/sms-big.png
+1 49 0 796869 0 0
+/images/skype.png
+1 195 0 292946 0 0
+/images/station-big.jpg
+1 154 0 545327 0 0
+/js/jquery.slides.min.js
+1 147 0 325380 0 0
+/Busfahrer.pdf
+0 6 0 941772 0 0
+/images/_5.jpg
+1 50 0 1310608 0 0
+/images/berlin-wuppertal.png
+1 143 0 30553052 0 0
+/images/berlin-monchengladbach.png
+1 141 0 26937380 0 0
+/images/logo.png
+1 144 0 787134 0 0
+/js/jquery.easing-sooper.js
+1 145 0 188460 0 0
+/css/slider.css
+1 172 0 1237386 0 0
+/Datenschutz.html
+0 35 0 228501 13 6
+/Allg_Befbed.pdf
+0 4 0 174204 0 0
+/images/tel-big.png
+1 49 0 658731 0 0
+/js/modernizr-1.5.min.js
+1 148 0 598864 0 0
+/AGB.html
+0 36 0 122868 15 8
+/js/jquery-1.9.1.min.js
+1 151 0 3796204 0 0
+/images/_logo.png
+1 196 0 2388097 0 0
+/images/buchungen.png
+1 229 0 8026911 0 0
+/images/4.jpg
+1 46 0 937432 0 0
+/css/style.css
+1 173 0 371061 0 0
+/images/back.png
+1 143 0 96051 0 0
+/images/facebook.png
+1 206 0 205590 0 0
+/images/6.jpg
+1 45 0 744084 0 0
+/images/tel.png
+1 204 0 785250 0 0
+/images/mail-big.png
+1 48 0 657756 0 0
+/images/linkedin.png
+1 202 0 203400 0 0
+/images/berlin-koln.png
+1 141 0 21423336 0 0
+/images/twitter.png
+1 197 0 234030 0 0
+/images/rss.png
+1 194 0 253968 0 0
+/Kundenservice.html
+0 63 0 158184 12 7
+/Buchung.html
+0 66 0 212178 14 9
+/images/_4.jpg
+1 48 0 1157164 0 0
+/Job.html
+0 36 0 89858 13 5
+/Kontakt.html
+0 26 0 59508 9 5
+/js/jquery.sooperfish.js
+1 145 0 172760 0 0
+/images/sms.png
+1 208 0 1037742 0 0
+/images/8.jpg
+1 46 72057594037927936 1233396 0 0
+/images/_3.jpg
+1 49 7810774926040642102 1029940 0 0
+/images/dusseldorf-frankfurt.png
+1 131 7594245673386852930 18811522 0 0
+/images/google.png
+1 199 3543822961803669811 323400 0 0
+/images/5.jpg
+1 48 111480950514533 1006474 0 0
+/
+0 419 8371682016690974276 3488244 255 62
+/Uberuns.html
+0 64 23298605053980984 192307 16 7
+/Mitarbeiter Organisation.pdf
+0 17 3330473707561811968 783344 0 0
+/images/_2.jpg
+1 51 3543546975811874864 1019364 0 0
+/images/y1.png
+1 51 0 4950360 0 0
+/images/berlin-dusseldorf.png
+1 136 0 14809421 0 0
+/images/y7.png
+1 51 0 9636680 0 0
+/images/y2.png
+1 49 0 6073490 0 0
+/images/pagination.png
+1 124 0 112488 0 0
+/images/fahrplan.png
+1 55 0 219560 0 0
+/images/y8.png
+1 50 0 7764240 0 0
+/images/youtube.png
+1 198 0 281050 0 0
+/fonts/YanoneKaffeesatz-Regular.ttf
+0 147 0 9120720 0 0
+/EU-Verordnung Nr 181-2011_de.pdf
+0 4 0 3260708 0 0
+/images/mainz-berlin.png
+1 144 0 27693543 0 0
+/Impressum.html
+0 62 0 207023 35 12
+/FAQ.html
+0 41 0 270848 14 11
+# End Of Table - urls
+# -sites- (monthly)
+dslb-088-068-040-190.pools.arcor-ip.net
+0 891 156 11321753 3 1389128813
+/Buchung.html
+31.13.97.119
+0 2 2 18000 0 0
+-
+62-210-189-102.rev.poneytelecom.eu
+0 1 1 3324 1 1389388623
+/
+e179009123.adsl.alicedsl.de
+0 37 37 2705879 1 1388697532
+/Liniennetz.html
+msnbot-157-55-34-99.search.msn.com
+0 5 5 24650 0 0
+-
+69.171.233.114
+0 23 23 377171 0 0
+-
+msnbot-199-30-20-98.search.msn.com
+0 1 1 159355 0 0
+-
+69.171.235.113
+0 5 5 16045 0 0
+-
+77.121.217.72
+0 6 1 28491 1 1389521736
+-
+ec2-23-20-196-230.compute-1.amazonaws.com
+0 1 1 20576 1 1389376616
+/FAQ.html
+173.252.106.119
+0 2 2 99846 0 0
+-
+msnbot-199-30-20-29.search.msn.com
+0 2 2 51352 0 0
+-
+ec2-107-22-67-105.compute-1.amazonaws.com
+0 2 2 35850 2 1389372742
+/Kundenservice.html
+msnbot-157-55-35-94.search.msn.com
+0 1 0 0 1 1389200748
+/Impressum.html
+4.53.51.195
+0 1 1 3324 1 1389524288
+/
+173.252.102.115
+0 3 3 331056 0 0
+-
+msnbot-199-30-16-22.search.msn.com
+0 1 1 29978 0 0
+-
+msnbot-157-55-35-86.search.msn.com
+0 2 0 0 2 1389205866
+/
+msnbot-157-55-33-14.search.msn.com
+0 2 0 0 2 1389256969
+/Impressum.html
+ec2-23-20-68-244.compute-1.amazonaws.com
+0 2 2 36878 2 1389373147
+/Job.html
+165.pool85-52-54.dynamic.orange.es
+0 1 1 27474 1 1389441577
+/
+dslb-088-068-038-173.pools.arcor-ip.net
+0 169 169 9019443 4 1389061760
+/Impressum.html
+msnbot-65-55-52-113.search.msn.com
+0 2 1 1624 1 1388687089
+/Job.html
+162.243.80.87
+0 12 12 35821 1 1388618223
+/Kundenservice.html
+ec2-50-19-31-100.compute-1.amazonaws.com
+0 1 1 15376 1 1389372833
+/Datenschutz.html
+173.252.77.2
+0 7 7 30303 0 0
+-
+pd9eb9493.dip0.t-ipconnect.de
+0 24 0 0 1 1389012711
+/
+69.171.233.118
+0 19 19 158630 0 0
+-
+173.252.106.114
+0 3 3 204171 0 0
+-
+static-71-189-164-218.lsanca.fios.verizon.net
+0 3 3 9972 3 1389310800
+/
+rx117.tfbnw.net
+0 1 1 5003 0 0
+-
+static.204.39.40.188.clients.your-server.de
+0 1 1 27474 1 1389061894
+/
+91-65-137-243-dynip.superkabel.de
+0 36 36 2667151 1 1389466285
+/
+msnbot-65-55-52-89.search.msn.com
+0 1 1 4743 1 1388570168
+/Datenschutz.html
+msnbot-157-55-33-83.search.msn.com
+0 1 1 2283 1 1388783083
+/Uberuns.html
+ec2-54-235-0-60.compute-1.amazonaws.com
+0 1 1 27474 1 1389564199
+/
+46.115.85.70
+0 36 36 2667151 1 1388584192
+/
+ec2-54-224-217-218.compute-1.amazonaws.com
+0 1 1 27474 1 1389291416
+/
+31.13.97.117
+0 1 1 1335 0 0
+-
+162.243.46.25
+0 12 12 35821 1 1389157777
+/Kundenservice.html
+80.79.119.203
+0 2 0 412 2 1389387635
+-
+xdsl-84-44-130-126.netcologne.de
+0 36 36 2667151 1 1388785032
+/
+f052101243.adsl.alicedsl.de
+0 43 43 2731021 2 1389128994
+/Impressum.html
+msnbot-157-56-92-165.search.msn.com
+0 1 0 0 1 1388859413
+/Buchung.html
+bhost124.rosreserv.ru
+0 2 1 27676 1 1389137710
+-
+crawl-66-249-66-96.googlebot.com
+0 8 7 21146 5 1388574668
+/Uberuns.html
+dslb-088-068-062-091.pools.arcor-ip.net
+0 185 150 10730400 6 1389300091
+/
+msnbot-157-55-34-29.search.msn.com
+0 2 2 8671 1 1389554259
+/
+dslb-088-068-054-030.pools.arcor-ip.net
+0 36 36 2667151 1 1388979381
+/
+tmo-111-174.customers.d1-online.com
+0 57 57 2938987 1 1388654922
+/
+pool-96-247-75-70.lsanca.fios.verizon.net
+0 1 1 3324 1 1389243970
+/
+ec2-54-226-21-111.compute-1.amazonaws.com
+0 1 1 27474 1 1389290200
+/
+ec2-50-16-27-251.compute-1.amazonaws.com
+0 1 1 92629 0 0
+-
+msnbot-157-55-35-93.search.msn.com
+0 2 0 0 1 1389081422
+/Liniennetz.html
+p5487f518.dip0.t-ipconnect.de
+0 40 40 2829009 1 1388877910
+/Job.html
+69.171.233.113
+0 23 23 268673 0 0
+-
+crawl-66-249-64-2.googlebot.com
+0 2 2 5398 2 1388624286
+/
+p5ddc3aed.dip0.t-ipconnect.de
+0 6 6 53499 0 0
+-
+69.171.235.119
+0 9 9 218496 0 0
+-
+ec2-23-20-162-65.compute-1.amazonaws.com
+0 1 1 10513 1 1389382340
+/Uberuns.html
+dslb-178-012-177-122.pools.arcor-ip.net
+0 36 36 2667151 1 1389026218
+/
+msnbot-65-55-52-92.search.msn.com
+0 1 1 2283 1 1389002141
+/Uberuns.html
+ec2-23-21-24-219.compute-1.amazonaws.com
+0 1 1 9174 1 1389375517
+/AGB.html
+64.246.187.42
+0 1 1 3324 1 1389019978
+/
+69.171.234.117
+0 38 38 254735 1 1389479846
+/Buchung.html
+dslb-088-075-180-154.pools.arcor-ip.net
+0 33 33 1666976 1 1388785984
+/
+173.252.102.116
+0 1 1 231441 0 0
+-
+162.243.117.19
+0 3 3 82422 2 1389438037
+/
+ip-109-45-3-60.web.vodafone.de
+0 37 36 2667151 1 1388780080
+/
+ec2-23-20-115-183.compute-1.amazonaws.com
+0 1 1 15376 1 1389375189
+/Datenschutz.html
+31-56-161-28.rasana.net
+0 1 1 27474 1 1389440561
+/
+ip-109-44-0-149.web.vodafone.de
+0 36 36 2667151 1 1389212229
+/
+msnbot-157-56-229-138.search.msn.com
+0 1 0 0 1 1389264789
+/Uberuns.html
+msnbot-157-55-32-108.search.msn.com
+0 2 2 18700 1 1389118924
+/Datenschutz.html
+95-91-242-56-dynip.superkabel.de
+0 26 26 255181 1 1388929459
+/Impressum.html
+69.171.235.116
+0 12 12 306696 0 0
+-
+crawl-198-27-82-182.meanpathbot.com
+0 2 1 3513 1 1388835808
+/
+ec2-23-22-230-23.compute-1.amazonaws.com
+0 1 1 27474 1 1389530579
+/
+109.120.163.60
+0 3 0 646 1 1388827838
+-
+n112118102216.netvigator.com
+0 1 1 27474 1 1389457074
+/
+mnch-4d04d74f.pool.mediaways.net
+0 2 0 386 0 0
+-
+69.171.245.7
+0 2 2 109328 0 0
+-
+69.58.178.56
+0 22 22 362602 2 1389566086
+/AGB.html
+190.42.104.197
+0 1 1 27474 1 1389288636
+/
+46.115.113.254
+0 36 36 2667151 1 1389365176
+/
+msnbot-199-30-20-21.search.msn.com
+0 1 1 34016 0 0
+-
+ip-109-44-3-97.web.vodafone.de
+0 73 1 3069 1 1388973169
+/
+g224253178.adsl.alicedsl.de
+0 44 44 2836148 1 1389098646
+/Liniennetz.html
+msnbot-157-55-35-99.search.msn.com
+0 2 2 10674 0 0
+-
+173.252.102.118
+0 2 2 2970 0 0
+-
+69.171.235.118
+0 6 6 29089 0 0
+-
+crawl-66-249-64-41.googlebot.com
+0 1 0 0 1 1389431343
+/Impressum.html
+69.171.234.112
+0 46 46 207227 1 1389479845
+/Impressum.html
+214-74-12-194.zeus.poltava.ua
+0 8 6 165250 2 1388762570
+-
+crawl-198-27-66-81.meanpathbot.com
+0 2 1 3513 1 1388806150
+/
+hrktc-crw01.fuuzle.com
+0 1 1 27474 1 1388669125
+/
+crawl-66-249-73-224.googlebot.com
+0 3 3 13998 1 1389037721
+/
+ec2-54-205-125-233.compute-1.amazonaws.com
+0 1 1 27474 1 1389299319
+/
+69.171.234.114
+0 51 51 299250 1 1389479846
+/Datenschutz.html
+crawl-66-249-73-225.googlebot.com
+0 3 3 13998 1 1389038757
+/
+msnbot-157-55-32-100.search.msn.com
+0 2 0 0 2 1388969353
+/Job.html
+msnbot-157-56-92-143.search.msn.com
+0 1 0 0 1 1388999591
+/Liniennetz.html
+ec2-23-20-64-92.compute-1.amazonaws.com
+0 1 1 27474 1 1389309419
+/
+176.5.46.206
+0 1 0 0 1 1388945299
+/
+69.58.178.58
+0 22 22 362602 2 1389018626
+/AGB.html
+ec2-174-129-130-225.compute-1.amazonaws.com
+0 2 2 31089 2 1389384033
+/FAQ.html
+crawl-66-249-73-16.googlebot.com
+0 27 0 0 24 1389227649
+/Job.html
+173.252.102.114
+0 2 2 279984 0 0
+-
+dsdf-4d0a0076.pool.mediaways.net
+0 60 60 3852184 1 1388879764
+/
+crawl-66-249-73-131.googlebot.com
+0 8 8 58447 1 1388923950
+/
+x2f6c60d.dyn.telefonica.de
+0 36 36 2667151 1 1388959960
+/
+89.204.154.223
+0 22 22 1207255 1 1388645657
+/
+msnbot-65-55-215-110.search.msn.com
+0 3 3 369927 0 0
+-
+ip-109-45-1-253.web.vodafone.de
+0 33 0 786 1 1388749125
+/
+173.252.102.113
+0 3 3 456697 0 0
+-
+msnbot-157-55-33-20.search.msn.com
+0 1 0 0 1 1389183531
+/Datenschutz.html
+crawl-66-249-73-107.googlebot.com
+0 10 3 13998 7 1389321874
+/Kundenservice.html
+162.243.43.162
+0 12 12 35821 1 1388943486
+/Kundenservice.html
+dslb-094-219-220-235.pools.arcor-ip.net
+0 18 18 1475409 0 0
+-
+ec2-107-20-129-75.compute-1.amazonaws.com
+0 1 1 27474 1 1389128239
+/
+146.234.82.225
+0 68 68 3090037 1 1388676400
+/Kundenservice.html
+92.f5.344a.static.theplanet.com
+0 2 2 54948 2 1389241256
+/
+dslb-088-068-059-013.pools.arcor-ip.net
+0 37 37 2670205 1 1389260196
+/
+ec2-50-19-30-169.compute-1.amazonaws.com
+0 2 2 20657 1 1389374677
+/Liniennetz.html
+msnbot-199-30-16-16.search.msn.com
+0 1 1 27202 0 0
+-
+78.174.21.140.dynamic.ttnet.com.tr
+0 1 1 27474 1 1389294238
+/
+msnbot-157-55-33-107.search.msn.com
+0 4 3 38691 1 1389190189
+/Liniennetz.html
+89.204.153.237
+0 36 36 2667151 1 1389466847
+/
+69.171.234.113
+0 43 43 267993 1 1389479846
+/Job.html
+crawl-198-27-82-188.meanpathbot.com
+0 2 1 3513 1 1388841200
+/
+mnch-5d85b975.pool.mediaways.net
+0 3 0 583 0 0
+-
+ec2-107-22-48-96.compute-1.amazonaws.com
+0 1 1 10033 1 1389383840
+/Liniennetz.html
+173.252.106.113
+0 1 1 49923 0 0
+-
+f053072169.adsl.alicedsl.de
+0 36 36 2667151 1 1388742415
+/
+msnbot-157-56-93-94.search.msn.com
+0 1 0 0 1 1389178514
+/Datenschutz.html
+173.252.77.1
+0 5 5 61461 0 0
+-
+crawl-66-249-64-43.googlebot.com
+0 1 0 0 0 0
+-
+177.43.63.141.static.gvt.net.br
+0 2 1 27688 1 1389176615
+-
+46.115.156.182
+0 36 36 2667151 1 1389105013
+/
+g229123065.adsl.alicedsl.de
+0 113 113 7540655 1 1388861133
+/
+msnbot-65-55-24-217.search.msn.com
+0 1 1 815177 0 0
+-
+86-121-166-199.rdsnet.ro
+0 2 2 54948 1 1388553001
+/
+ppp-2-85-138-26.home.otenet.gr
+0 2 2 54948 2 1389288345
+/
+msnbot-157-55-33-78.search.msn.com
+0 1 0 0 1 1388995270
+/Liniennetz.html
+msnbot-157-55-33-45.search.msn.com
+0 1 0 0 1 1388926847
+/Impressum.html
+69.171.234.115
+0 36 36 244169 0 0
+-
+brln-4db9c9a2.pool.mediaways.net
+0 64 64 2975208 1 1388950029
+/Buchung.html
+ip-109-84-2-18.web.vodafone.de
+0 59 0 786 1 1388696725
+/Liniennetz.html
+dslb-088-069-195-093.pools.arcor-ip.net
+0 57 57 3740679 1 1388558206
+/Uberuns.html
+89.204.137.235
+0 42 42 2621441 1 1388995814
+/
+p3ee2f6dd.dip0.t-ipconnect.de
+0 46 46 2932399 1 1389439972
+/Liniennetz.html
+msnbot-157-55-35-44.search.msn.com
+0 1 1 3324 1 1389530977
+/
+pd9e889a8.dip0.t-ipconnect.de
+0 36 36 2667151 1 1389177576
+/
+msnbot-157-55-33-102.search.msn.com
+0 3 3 97558 0 0
+-
+31.13.97.115
+0 3 3 20063 0 0
+-
+spider-93-158-149-32.yandex.com
+0 241 99 1933078 20 1389566757
+/
+crawl-66-249-73-126.googlebot.com
+0 8 6 29415 3 1389326674
+/Impressum.html
+pd956933e.dip0.t-ipconnect.de
+0 39 39 2756609 1 1389365609
+/AGB.html
+38.100.21.65
+0 11 11 163231 1 1389544304
+/Kundenservice.html
+176.102.37.56
+0 7 0 1486 3 1389049466
+-
+msnbot-65-55-24-234.search.msn.com
+0 2 1 2450 2 1389483087
+/Job.html
+ec2-54-242-27-200.compute-1.amazonaws.com
+0 1 1 27474 1 1389530778
+/
+e179006133.adsl.alicedsl.de
+0 61 61 3857468 1 1389201154
+/Uberuns.html
+31.13.97.113
+0 2 2 8327 1 1388959960
+/
+crawl-198-27-82-161.meanpathbot.com
+0 2 1 3513 1 1388815149
+/
+89.204.135.253
+0 40 32 1844760 1 1389461417
+/
+dslb-088-068-037-145.pools.arcor-ip.net
+0 102 102 1344468 3 1389549744
+/Liniennetz.html
+173.252.102.119
+0 3 3 234149 0 0
+-
+ec2-50-16-36-247.compute-1.amazonaws.com
+0 2 2 54948 2 1389156288
+/
+89.204.138.141
+0 9 9 145311 1 1388917873
+/
+69.171.245.6
+0 1 1 49923 0 0
+-
+msnbot-157-55-33-104.search.msn.com
+0 2 2 34520 0 0
+-
+msnbot-157-55-33-103.search.msn.com
+0 2 1 4743 2 1388898537
+/Datenschutz.html
+173.252.77.6
+0 8 8 76196 0 0
+-
+smtp.bildkunst.de
+0 1 1 27474 1 1388614604
+/
+91-65-184-94-dynip.superkabel.de
+0 44 44 2837128 1 1389287187
+/
+msnbot-157-56-93-62.search.msn.com
+0 1 0 0 1 1388630138
+/Kundenservice.html
+crawl-66-249-66-23.googlebot.com
+0 23 23 1186338 6 1389533881
+/Kundenservice.html
+msnbot-157-55-32-229.search.msn.com
+0 1 0 0 1 1389134161
+/
+dr-foster.w3.org
+0 3 3 88102 1 1389479936
+/
+176.3.96.39
+0 32 29 2390670 1 1388739516
+/
+162.243.192.172
+0 12 12 35821 1 1389218205
+/Kundenservice.html
+37.1.217.108
+0 1 0 210 1 1389374517
+-
+162.243.110.59
+0 12 12 35821 1 1388877037
+/Kundenservice.html
+69.171.235.117
+0 3 3 25552 0 0
+-
+msnbot-199-30-20-145.search.msn.com
+0 1 1 49536 0 0
+-
+hrktc-crw10.fuuzle.com
+0 1 1 27474 1 1389028525
+/
+e179169148.adsl.alicedsl.de
+0 41 41 2785034 1 1388775400
+/Liniennetz.html
+msnbot-199-30-20-83.search.msn.com
+0 2 2 387312 0 0
+-
+dslb-088-068-059-215.pools.arcor-ip.net
+0 106 71 6264541 3 1388687987
+/
+msnbot-157-55-35-75.search.msn.com
+0 2 0 0 2 1388696247
+/Liniennetz.html
+dslb-088-068-058-227.pools.arcor-ip.net
+0 85 84 8936057 2 1388884903
+/Impressum.html
+dslb-178-012-249-232.pools.arcor-ip.net
+0 60 60 3852184 1 1389303229
+/
+msnbot-65-55-52-94.search.msn.com
+0 1 0 0 1 1389158132
+/Buchung.html
+lst-amand-152-31-16-180.w193-253.abo.wanadoo.fr
+0 1 1 27474 1 1389332711
+/
+173.252.77.0
+0 3 3 5057 0 0
+-
+141.100.77.221
+0 59 59 3850110 1 1389022696
+/
+msnbot-157-55-36-52.search.msn.com
+0 1 1 3324 1 1389373333
+/
+p579b4592.dip0.t-ipconnect.de
+0 59 59 3848860 1 1388586650
+/Uberuns.html
+crawl-66-249-66-140.googlebot.com
+0 1 1 3324 1 1389471836
+/
+msnbot-157-55-35-109.search.msn.com
+0 1 0 0 1 1389352392
+/AGB.html
+69.171.235.112
+0 7 7 493808 0 0
+-
+dslb-084-060-242-177.pools.arcor-ip.net
+0 58 58 3801341 1 1388875363
+/Uberuns.html
+tmo-109-38.customers.d1-online.com
+0 40 40 1265557 1 1388573110
+/Uberuns.html
+g225072132.adsl.alicedsl.de
+0 61 61 3855238 1 1389128273
+/
+dslb-088-068-051-203.pools.arcor-ip.net
+0 36 36 2667151 1 1388913181
+/
+176.2.111.18
+0 40 38 2669109 1 1389115358
+/
+195.3.146.93
+0 3 0 561 3 1388781228
+-
+ec2-23-23-26-194.compute-1.amazonaws.com
+0 1 1 9174 1 1389374528
+/AGB.html
+ip-37-24-191-7.unitymediagroup.de
+0 36 36 2667151 1 1388918670
+/
+brln-4dbad58d.pool.mediaways.net
+0 56 56 3738605 1 1388590846
+/Buchung.html
+static.110.192.9.176.clients.your-server.de
+0 3 3 82422 3 1389462872
+/
+91-66-81-73-dynip.superkabel.de
+0 36 0 0 1 1388587131
+/
+dslb-088-068-063-229.pools.arcor-ip.net
+0 43 43 4159073 2 1388993406
+/FAQ.html
+msnbot-131-253-24-9.search.msn.com
+0 1 1 20338 0 0
+-
+rx116.tfbnw.net
+0 1 1 49923 0 0
+-
+49.156.159.40
+0 3 3 82422 3 1388826124
+/
+162.243.193.118
+0 12 12 35821 1 1389442324
+/Kundenservice.html
+msnbot-157-55-32-146.search.msn.com
+0 2 1 3324 1 1389470613
+/Kontakt.html
+xdsl-81-173-251-90.netcologne.de
+0 51 51 3679863 1 1388968547
+/Uberuns.html
+69.171.233.115
+0 24 24 363553 0 0
+-
+unta.n.masterweb.net
+0 1 0 203 1 1388585499
+-
+ec2-50-19-26-86.compute-1.amazonaws.com
+0 1 1 27474 1 1389305287
+/
+mnch-5d85a7a8.pool.mediaways.net
+0 2 0 386 0 0
+-
+ec2-54-196-242-233.compute-1.amazonaws.com
+0 1 1 27474 1 1389558046
+/
+wwwb-app18.us.archive.org
+0 1 1 27474 1 1389479860
+/
+www.whois.sc
+0 8 8 26592 6 1389069516
+/
+46.115.72.97
+0 35 35 1674844 1 1389279012
+/
+92.116.30.9
+0 31 26 2380673 0 0
+-
+crawl-198-27-82-190.meanpathbot.com
+0 2 1 3513 1 1388805810
+/
+31.13.97.118
+0 3 3 19614 0 0
+-
+msnbot-65-55-215-45.search.msn.com
+0 1 1 26630 0 0
+-
+38.100.21.64
+0 11 11 191870 1 1389546260
+/Datenschutz.html
+ec2-174-129-124-132.compute-1.amazonaws.com
+0 1 1 27474 1 1389528314
+/
+msnbot-131-253-24-57.search.msn.com
+0 8 8 58447 1 1388555948
+/
+162.243.62.160
+0 4 4 109896 4 1388828507
+/
+g226186165.adsl.alicedsl.de
+0 55 55 3735281 1 1389036422
+/Uberuns.html
+46.115.84.233
+0 61 61 3857468 2 1388771082
+/
+msnbot-157-56-93-37.search.msn.com
+0 1 0 0 1 1389340412
+/Impressum.html
+89.204.139.66
+0 1 0 0 1 1389025945
+/
+162.243.81.161
+0 12 12 35821 1 1389177451
+/Kundenservice.html
+msnbot-157-55-33-79.search.msn.com
+0 1 1 2074 1 1388640384
+/Kundenservice.html
+ec2-23-20-250-168.compute-1.amazonaws.com
+0 1 1 50004 0 0
+-
+31.13.97.116
+0 3 3 13125 0 0
+-
+seitenreport.de
+0 26 19 142763 1 1389479861
+/
+msnbot-157-56-93-60.search.msn.com
+0 1 0 0 1 1389144544
+/FAQ.html
+g231218016.adsl.alicedsl.de
+0 14 10 509082 0 0
+-
+ec2-50-16-102-96.compute-1.amazonaws.com
+0 2 2 35978 2 1389378189
+/
+69.171.235.114
+0 7 7 40092 0 0
+-
+46.115.125.122
+0 30 29 2342888 1 1388939125
+/
+crawl-66-249-64-4.googlebot.com
+0 4 4 18047 3 1388595074
+/Impressum.html
+msnbot-65-55-215-92.search.msn.com
+0 2 2 480934 0 0
+-
+42.c.be.static.xlhost.com
+0 16 14 236701 1 1389004503
+/
+176.0.213.25
+0 36 36 2667151 1 1388824879
+/
+msnbot-157-55-32-80.search.msn.com
+0 1 1 3324 1 1389297790
+/
+p57a1c596.dip0.t-ipconnect.de
+0 41 41 2724643 1 1388924232
+/Buchung.html
+ip-109-47-1-31.web.vodafone.de
+0 97 0 786 1 1388837584
+/
+mail.ombhost.com
+0 1 0 203 1 1388603142
+-
+msnbot-157-56-93-42.search.msn.com
+0 1 0 0 1 1389294249
+/FAQ.html
+aftr-37-24-152-95.unity-media.net
+0 60 60 3809910 1 1388775336
+/FAQ.html
+pd9e88a81.dip0.t-ipconnect.de
+0 55 54 3791555 2 1388685412
+/Liniennetz.html
+95-91-249-141-dynip.superkabel.de
+0 36 36 2667151 1 1388774576
+/
+dslb-088-068-048-254.pools.arcor-ip.net
+0 36 36 2667151 1 1388553659
+/
+46.c.be.static.xlhost.com
+0 1 1 27474 1 1389004348
+/
+78.167.72.102.dynamic.ttnet.com.tr
+0 1 1 27474 1 1389307969
+/
+ec2-50-17-53-44.compute-1.amazonaws.com
+0 1 1 27474 1 1389120273
+/
+pd9eba6ba.dip0.t-ipconnect.de
+0 59 0 0 1 1389285904
+/
+ec2-54-205-53-17.compute-1.amazonaws.com
+0 1 1 27474 1 1389563163
+/
+89.204.138.181
+0 9 9 170018 1 1389546578
+/
+tmo-096-222.customers.d1-online.com
+0 36 36 2667151 1 1388848690
+/
+ec2-54-226-112-46.compute-1.amazonaws.com
+0 1 1 27474 1 1389528269
+/
+188-26-232-61.rdsnet.ro
+0 2 2 54948 1 1389025103
+/
+p4ffe0884.dip0.t-ipconnect.de
+0 67 63 2973919 1 1388875602
+/Buchung.html
+89.204.154.165
+0 55 55 3793442 1 1388944416
+/Uberuns.html
+ec2-54-227-197-177.compute-1.amazonaws.com
+0 1 1 27474 1 1389290346
+/
+f052231112.adsl.alicedsl.de
+0 59 59 3850110 2 1388958762
+/Uberuns.html
+69.171.245.3
+0 2 2 99846 0 0
+-
+msnbot-199-30-20-93.search.msn.com
+0 2 2 50672 0 0
+-
+msnbot-157-55-32-75.search.msn.com
+0 1 1 3324 1 1389299308
+/
+msnbot-157-56-92-160.search.msn.com
+0 1 1 815177 0 0
+-
+69.171.234.116
+0 45 45 267485 1 1389479846
+/Liniennetz.html
+pd9eba01d.dip0.t-ipconnect.de
+0 23 0 0 0 0
+-
+crawl-66-249-73-19.googlebot.com
+0 5 3 13998 3 1389335803
+/Uberuns.html
+msnbot-199-30-20-103.search.msn.com
+0 1 1 34261 0 0
+-
+rx112.tfbnw.net
+0 2 2 99846 0 0
+-
+dslb-088-068-048-166.pools.arcor-ip.net
+0 100 100 7949631 3 1389228871
+/Uberuns.html
+p4fd41a96.dip0.t-ipconnect.de
+0 36 36 2667151 1 1389025607
+/
+crawl-66-249-64-3.googlebot.com
+0 2 2 5228 1 1388578985
+/Buchung.html
+e177088074.adsl.alicedsl.de
+0 51 51 3679863 1 1388799913
+/Uberuns.html
+69.171.234.119
+0 41 41 235111 1 1389479846
+/Uberuns.html
+173.252.102.112
+0 3 3 225914 0 0
+-
+crawl-66-249-73-106.googlebot.com
+0 16 16 57169 10 1389015095
+/Datenschutz.html
+133.139.224.159.triolan.net
+0 3 0 544 1 1389176554
+-
+msnbot-157-55-35-52.search.msn.com
+0 1 0 0 1 1388747470
+/Kundenservice.html
+msnbot-199-30-16-14.search.msn.com
+0 1 1 27202 0 0
+-
+89.204.135.162
+0 24 24 1683726 1 1389271933
+/
+pd9578749.dip0.t-ipconnect.de
+0 77 77 3924468 1 1388712816
+/FAQ.html
+31.13.97.114
+0 2 2 10356 0 0
+-
+wmh38-5-78-223-116-91.fbx.proxad.net
+0 1 1 27474 1 1389301122
+/
+msnbot-199-30-20-3.search.msn.com
+0 1 1 20669 0 0
+-
+dslb-188-104-142-146.pools.arcor-ip.net
+0 66 66 4682450 1 1388844569
+/Uberuns.html
+ip-109-84-2-193.web.vodafone.de
+0 33 0 786 1 1388992649
+/
+msnbot-157-55-33-111.search.msn.com
+0 1 0 0 1 1389304325
+/AGB.html
+crawl-66-249-64-12.googlebot.com
+0 3 3 13998 1 1389418267
+/
+ip-109-45-0-40.web.vodafone.de
+0 59 0 786 1 1388844567
+/Liniennetz.html
+e179007135.adsl.alicedsl.de
+0 37 37 2670205 1 1388591952
+/Impressum.html
+173.252.77.5
+0 5 5 38918 0 0
+-
+92.8f.b6.static.xlhost.com
+0 1 1 27474 1 1389025088
+/
+crawl-66-249-66-19.googlebot.com
+0 3 3 13998 1 1389519494
+/
+crawl-198-27-82-186.meanpathbot.com
+0 2 1 3513 1 1388816015
+/
+msnbot-157-55-32-52.search.msn.com
+0 1 0 0 1 1388590953
+/
+rx119.tfbnw.net
+0 1 1 49923 0 0
+-
+dul1.brt.mk.ua
+0 6 1 28491 1 1389183616
+-
+msnbot-157-55-32-81.search.msn.com
+0 1 0 0 1 1388784724
+/Kontakt.html
+dslb-088-073-063-217.pools.arcor-ip.net
+0 45 45 2839472 1 1388955144
+/
+msnbot-157-56-92-147.search.msn.com
+0 1 1 156962 0 0
+-
+msnbot-157-55-32-162.search.msn.com
+0 1 0 0 1 1388907093
+/Kontakt.html
+173.252.77.4
+0 5 5 69295 0 0
+-
+msnbot-157-55-35-50.search.msn.com
+0 2 0 0 2 1389226241
+/AGB.html
+msnbot-157-55-35-85.search.msn.com
+0 1 0 0 1 1389386447
+/Datenschutz.html
+ec2-184-72-64-52.compute-1.amazonaws.com
+0 1 1 27474 1 1389530299
+/
+82.113.121.117
+0 36 36 2667151 1 1388759647
+/
+c-71-227-177-3.hsd1.wa.comcast.net
+0 6 6 9972 2 1389425111
+/
+msnbot-157-55-33-110.search.msn.com
+0 1 0 0 1 1388571195
+/
+95-91-243-142-dynip.superkabel.de
+0 74 74 6129236 1 1388927857
+/Job.html
+msnbot-157-56-92-151.search.msn.com
+0 1 0 0 1 1389047345
+/Buchung.html
+msnbot-157-55-33-33.search.msn.com
+0 2 2 35131 1 1389120483
+/AGB.html
+69.171.235.115
+0 7 7 90733 0 0
+-
+82.113.98.174
+0 1 1 1614 0 0
+-
+dslb-088-068-046-133.pools.arcor-ip.net
+0 60 60 2920770 3 1389371548
+/Impressum.html
+msnbot-157-55-34-176.search.msn.com
+0 1 1 3324 1 1389467638
+/
+crawl-198-27-82-149.meanpathbot.com
+0 2 1 3513 1 1388812329
+/
+69.171.233.116
+0 18 18 448202 0 0
+-
+93-79-72-220.sumy.volia.net
+0 1 0 210 1 1389050033
+-
+msnbot-65-55-24-244.search.msn.com
+0 1 1 3324 1 1389377826
+/
+64-120-214-178.static.hostnoc.net
+0 3 3 82422 2 1389304079
+/
+client.fttb.2day.kz
+0 1 0 210 1 1389302049
+-
+69.171.245.4
+0 1 1 49923 0 0
+-
+google-proxy-66-249-93-157.google.com
+0 23 23 1754552 1 1389479817
+/
+31.13.97.112
+0 2 2 14940 0 0
+-
+g226179130.adsl.alicedsl.de
+0 240 182 12141611 2 1389481598
+/
+asy233.asy252.tellcom.com.tr
+0 4 2 55360 2 1388657007
+-
+ec2-54-212-115-224.us-west-2.compute.amazonaws.com
+0 1 1 27474 1 1388728917
+/
+dslb-088-068-060-185.pools.arcor-ip.net
+0 82 82 4286553 2 1389484925
+/Job.html
+ip-109-47-3-23.web.vodafone.de
+0 60 0 786 1 1388837758
+/
+msnbot-157-55-35-82.search.msn.com
+0 1 1 2125 1 1388636132
+/Kontakt.html
+69.171.233.119
+0 28 28 327992 0 0
+-
+4.53.51.196
+0 1 1 3324 1 1389521152
+/
+4.53.51.202
+0 1 1 3324 1 1389523379
+/
+hsi-kbw-46-223-1-52.hsi.kabel-badenwuerttemberg.de
+0 39 39 2778656 1 1389302320
+/Liniennetz.html
+89.204.130.167
+0 10 10 401459 1 1389464517
+/
+crawl-66-249-66-74.googlebot.com
+0 6 6 27996 2 1389466618
+/
+msnbot-65-55-55-231.search.msn.com
+0 3 3 822911 1 1389119005
+/FAQ.html
+msnbot-157-55-32-114.search.msn.com
+0 2 0 0 2 1388985993
+/
+173.252.77.3
+0 3 3 9338 0 0
+-
+69.171.233.112
+0 24 24 372654 0 0
+-
+msnbot-157-56-92-175.search.msn.com
+0 1 0 0 1 1388953857
+/Buchung.html
+crawl-66-249-64-22.googlebot.com
+0 1 1 3324 1 1389398729
+/
+69.171.233.117
+0 19 19 119590 0 0
+-
+ip-109-45-0-81.web.vodafone.de
+0 36 36 2667151 1 1388850392
+/
+ec2-50-19-4-40.compute-1.amazonaws.com
+0 1 1 11687 1 1389385891
+/Impressum.html
+msnbot-65-55-52-87.search.msn.com
+0 4 2 3369 2 1389287954
+/Impressum.html
+crawl-66-249-73-150.googlebot.com
+0 10 9 107076 7 1389324949
+/
+mnch-4d04d2a6.pool.mediaways.net
+0 3 0 583 0 0
+-
+dslb-088-068-035-164.pools.arcor-ip.net
+0 36 36 2667151 1 1388624366
+/
+69.171.245.1
+0 1 1 49923 0 0
+-
+195.54.166.219
+0 6 0 1276 2 1388710045
+-
+img-spider-95-108-158-243.yandex.com
+0 194 0 0 0 0
+-
+rx113.tfbnw.net
+0 1 1 49923 0 0
+-
+ec2-50-18-201-171.us-west-1.compute.amazonaws.com
+0 1 0 214 1 1389144355
+-
+crawl-198-27-66-30.meanpathbot.com
+0 1 1 3324 1 1388810823
+/
+188-138-220-213.starnet.md
+0 12 12 35821 1 1388661668
+/Kontakt.html
+# End Of Table - sites (monthly)
+# -sites- (daily)
+msnbot-157-55-34-99.search.msn.com
+0 5 5 24650 0 0
+-
+77.121.217.72
+0 6 1 28491 1 1389521736
+-
+4.53.51.195
+0 1 1 3324 1 1389524288
+/
+msnbot-65-55-52-113.search.msn.com
+0 1 1 1624 0 0
+-
+ec2-54-235-0-60.compute-1.amazonaws.com
+0 1 1 27474 1 1389564199
+/
+crawl-66-249-66-96.googlebot.com
+0 1 0 0 0 0
+-
+msnbot-157-55-34-29.search.msn.com
+0 2 2 8671 1 1389554259
+/
+ec2-23-22-230-23.compute-1.amazonaws.com
+0 1 1 27474 1 1389530579
+/
+mnch-4d04d74f.pool.mediaways.net
+0 2 0 386 0 0
+-
+69.58.178.56
+0 11 11 181301 1 1389566086
+/AGB.html
+msnbot-65-55-24-217.search.msn.com
+0 1 1 815177 0 0
+-
+msnbot-157-55-35-44.search.msn.com
+0 1 1 3324 1 1389530977
+/
+spider-93-158-149-32.yandex.com
+0 24 2 6648 3 1389566757
+/
+38.100.21.65
+0 11 11 163231 1 1389544304
+/Kundenservice.html
+ec2-54-242-27-200.compute-1.amazonaws.com
+0 1 1 27474 1 1389530778
+/
+dslb-088-068-037-145.pools.arcor-ip.net
+0 102 102 1344468 3 1389549744
+/Liniennetz.html
+msnbot-157-55-33-104.search.msn.com
+0 2 2 34520 0 0
+-
+crawl-66-249-66-23.googlebot.com
+0 23 23 1186338 6 1389533881
+/Kundenservice.html
+mnch-5d85a7a8.pool.mediaways.net
+0 2 0 386 0 0
+-
+ec2-54-196-242-233.compute-1.amazonaws.com
+0 1 1 27474 1 1389558046
+/
+38.100.21.64
+0 11 11 191870 1 1389546260
+/Datenschutz.html
+ec2-174-129-124-132.compute-1.amazonaws.com
+0 1 1 27474 1 1389528314
+/
+ec2-54-205-53-17.compute-1.amazonaws.com
+0 1 1 27474 1 1389563163
+/
+89.204.138.181
+0 9 9 170018 1 1389546578
+/
+ec2-54-226-112-46.compute-1.amazonaws.com
+0 1 1 27474 1 1389528269
+/
+pd9eba01d.dip0.t-ipconnect.de
+0 23 0 0 0 0
+-
+crawl-66-249-66-19.googlebot.com
+0 3 3 13998 1 1389519494
+/
+ec2-184-72-64-52.compute-1.amazonaws.com
+0 1 1 27474 1 1389530299
+/
+dslb-088-068-060-185.pools.arcor-ip.net
+0 23 23 249961 1 1389484925
+/Job.html
+4.53.51.196
+0 1 1 3324 1 1389521152
+/
+4.53.51.202
+0 1 1 3324 1 1389523379
+/
+img-spider-95-108-158-243.yandex.com
+0 33 0 0 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://meintaxi.biz/manager/
+1 1
+http://www.flowerpower-ibus.de/css/style.css
+1 15
+http://unsertaxi.net/wordpress
+1 1
+http://www.flowerpower-ibus.de/
+1 1301
+http://flowerpower-ibus.de/Datenschutz.html
+1 26
+http://flowerpower-ibus.de/css/style.css
+1 44
+http://www.forexunion.net
+0 1
+http://meintaxi.biz/manager/ispmgr
+1 1
+http://flowerpower-ibus.de/Liniennetz.html
+1 198
+http://www.google.de/search
+0 3
+http://unsertaxi.net/
+1 2
+http://meintaxi.biz/Buchung.html
+1 25
+http://unsertaxi.net/joomla
+1 1
+http://whois.domaintools.com/nachtfernbus.com
+1 1
+http://meintaxi.biz/ispmgr
+1 1
+http://supernachtfernbus.com/wordpress
+1 1
+http://meintaxi.biz/Job.html
+1 72
+http://www.flowerpower-ibus.de/index.html
+1 10
+http://supernachtfernbus.com/wp
+1 1
+http://name911.com/research/unsertaxi.net
+1 1
+nachtfernbus24.com
+1 2
+http://www.flowerpower-ibus.de/css/slider.css
+1 10
+http://supernachtfernbus.com/drupal
+1 1
+http://www.flowerpower-ibus.de/Uberuns.html
+1 101
+http://meintaxi.biz/css/slider.css
+1 6
+http://flowerpower-ibus.de/css/slider.css
+1 28
+http://meintaxi.biz/css/style.css
+1 12
+- (Direct Request)
+0 1474
+http://flowerpower-ibus.de/Kontakt.html
+1 27
+http://flowerpower-ibus.de/Buchung.html
+1 136
+http://www.google.de/url
+0 9
+http://flowerpower-ibus.de/Job.html
+1 30
+http://whois.domaintools.com/meintaxi.biz
+1 1
+http://www.unsertaxi.net/Impressum.html
+1 2
+http://flowerpower-ibus.de/Kundenservice.html
+1 85
+http://www.flowerpower-ibus.de/AGB.html
+1 2
+http://meintaxi.biz/Kundenservice.html
+1 3
+http://whois.domaintools.com/nachtfernbus24.com
+1 1
+http://www.nachtfernbus.com/
+1 11
+https://www.google.de/
+0 4
+http://meintaxi.biz/Impressum.html
+1 316
+http://flowerpower-ibus.de/FAQ.html
+1 27
+http://www.flowerpower-ibus.de/Buchung.html
+1 26
+http://nachtfernbus24.com
+1 2
+supernachtfernbus.com
+1 2
+http://unsertaxi.net/blog
+1 1
+http://flowerpower-ibus.de/Uberuns.html
+1 558
+http://www.deintaxi.net/
+1 22
+http://whois.domaintools.com/supernachtfernbus.com
+1 1
+http://flowerpower-ibus.de/Mitarbeiter Organisation.pdf
+1 2
+http://whois.domaintools.com/flowerpower-ibus.de
+1 1
+http://www.flowerpower-ibus.de/Kontakt.html
+1 1
+http://www.unsertaxi.net/
+1 11
+http://whois.domaintools.com/unsertaxi.net
+1 1
+http://www.flowerpower-ibus.de/Liniennetz.html
+1 24
+http://www.akama.com/company/Ennis_Business_Forms_Inc_a8d1a35818.html
+0 12
+http://meintaxi.biz/FAQ.html
+1 24
+http://flowerpower-ibus.de/Impressum.html
+1 28
+http://meintaxi.biz/
+1 30
+http://www.supernachtfernbus.com/
+1 11
+http://flowerpower-ibus.de/
+1 1493
+http://supernachtfernbus.com/
+1 1
+http://whois.domaintools.com/nachtfernbus24.de
+1 1
+http://meintaxi.biz/index.html
+1 195
+http://whois.domaintools.com/supernachtfernbus.de
+1 1
+http://unsertaxi.net/wp
+1 1
+http://meintaxi.biz/Uberuns.html
+1 59
+http://supernachtfernbus.com
+1 2
+http://supernachtfernbus.com/joomla
+1 1
+http://whois.domaintools.com/deintaxi.net
+1 1
+http://flowerpower-ibus.de/AGB.html
+1 28
+http://www.flowerpower-ibus.de/Kundenservice.html
+1 6
+http://www.nachtfernbus24.com/
+1 22
+http://flowerpower-ibus.de/index.html
+1 1097
+http://supernachtfernbus.com/blog
+1 1
+http://unsertaxi.net/drupal
+1 1
+http://meintaxi.biz/Kontakt.html
+1 1
+http://meintaxi.biz/Liniennetz.html
+1 80
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 3
+Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+1 36
+Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; HTC_Desire_C/2.01.162.6 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Ver
+0 36
+Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Cynus F3 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 80
+Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)
+0 15
+Apache-HttpClient/4.2.3 (java 1.5)
+0 6
+Spider: Googlebot
+2 142
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+1 168
+W3C_Validator/1.3
+0 1
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+0 332
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
+1 36
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 6
+Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13
+1 2
+Mozilla/5.0 (Linux; Android 4.4; Nexus 5 Build/KRT16M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safa
+0 142
+Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-I9300 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 185
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0
+1 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a S
+0 213
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/412 (KHTML, like Gecko) Safari/YY xxx
+1 1
+MobileSafari/8536.25 CFNetwork/609.1.4 Darwin/13.0.0
+1 28
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 GTB6 (.NET CLR 3.5.30729)
+1 8
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+1 4
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8 (.NET CLR 3.5.30729)
+1 3
+Browser: MSIE
+2 141
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71
+1 52
+msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)
+1 21
+Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; HTC_DesireSV Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mo
+0 36
+Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0
+1 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+1 142
+Browser: Firefox
+2 1262
+niki-bot
+0 1
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 91
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+1 9
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A501 Sa
+0 146
+Spider: MSN Bot
+2 21
+Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0
+1 60
+Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.8.131 Version/11.10
+1 16
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
+1 68
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+1 57
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; MAARJS; rv:11.0) like Gecko
+0 91
+Mozilla/5.0 (Linux; Android 4.0.3; LG-P880 Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Sa
+0 36
+Jigsaw/2.3.0 W3C_CSS_Validator_JFouffa/2.0 (See 
+0 6
+Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+1 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safa
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:26.0) Gecko/20100101 Firefox/26.0
+1 61
+Mozilla/5.0 (Windows NT 5.1; rv:22.0) Gecko/20100101 Firefox/22.0 Paros/3.2.13
+1 2
+Mozilla/5.0 (Linux; U; Android 4.3; de-de; Galaxy Nexus Build/JWR66Y) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobi
+0 36
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1
+1 3
+Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 59
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B511 Sa
+0 40
+Mozilla/5.0 (Linux; Android 4.1.2; GT-I8190 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile 
+0 40
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:22.0) Gecko/20100101 Firefox/22.0
+1 12
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/53
+1 23
+BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 ips-agent
+0 7
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
+1 22
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+1 23
+Mozilla/5.0 (BB10; Touch) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.2.0.1803 Mobile Safari/537.35+
+1 36
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0/Nutch-1.7
+1 4
+Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record; +http://archive.org/details/archive.org_bot)
+0 1
+Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.2
+1 45
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.0.0 Safari/537.36
+1 39
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 624
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; de-de) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/4.1.3 Safari/533.1
+1 72
+Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0; ips-agent) Gecko/20100101 Firefox/14.0.1
+1 37
+Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; GT-S7500 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mo
+0 77
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safa
+0 72
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+1 4
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+1 8
+Mozilla/5.0 (Windows NT 5.2; RW; rv:7.0a1) Gecko/20091211 SeaMonkey/9.23a1pre
+0 1
+Mozilla/5.0 (Windows NT 6.0; rv:26.0) Gecko/20100101 Firefox/26.0
+1 77
+Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/953
+1 60
+Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1) (http://name911.com)
+1 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+1 64
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 103
+Mozilla/5.0 (compatible; spbot/4.0.5; +http://www.seoprofiler.com/bot )
+0 60
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10
+1 1967
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1
+1 24
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;  WOW64;  Trident/5.0)
+1 8
+Mozilla/5.0 (Linux; Android 4.4.2; Nexus 7 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/53
+1 33
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; de-de) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21
+1 61
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B350 Safa
+0 386
+Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safar
+0 93
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; YPC 3.2.0; .NET CLR 1.0.3705; .NET CLR 2.0.50727)
+1 4
+Browser: Safari
+2 2900
+Lynx/2.8.8dev.16 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/1.0.1
+0 3
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) KomodiaBot/1.0
+0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)
+1 102
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/412 (KHTML, like Gecko) Safari/YY/Adobe
+1 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+1 36
+Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+1 3
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36
+1 12
+Mozilla/5.0 (Windows NT 6.2; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
+1 166
+M
+0 16
+HTTPing v1.4.4
+0 5
+classbot (+http://allclasses.com)
+0 3
+Browser: Opera
+2 42
+MobileSafari/9537.53 CFNetwork/672.0.2 Darwin/14.0.0
+1 4
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2.24) Gecko/20111103 Firefox/3.6.24
+1 302
+Mozilla/5.0 (compatible; spbot/4.0.6; +http://www.seoprofiler.com/bot )
+0 24
+Mozilla/3.0 (compatible; Indy Library)
+0 10
+Opera/9.80 (Windows NT 6.1; U; de) Presto/2.5.24 Version/10.53
+1 26
+Mozilla/5.0 (Linux; Android 4.3; SM-N9005 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Saf
+0 37
+Mozilla/5.0 (Windows NT 6.1; rv:26.0) Gecko/20100101 Firefox/26.0
+1 58
+Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG GT-I9195 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Ch
+0 67
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
+1 388
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0
+1 1
+Mozilla/5.0 (Linux; U; Android 4.1.1; tr-tr; Cynus F3 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 43
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0
+1 2
+Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8
+1 1
+# End Of Table - agents
+# -search strings- 
+flowerpower bus wiesbaden berlin
+2
+flower power ibus
+2
+flowerpower ibus
+2
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

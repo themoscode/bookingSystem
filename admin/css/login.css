@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+* {
+   		 					-webkit-box-sizing:border-box; 
+   		 					-moz-box-sizing:border-box; 
+   		 					-ms-box-sizing:border-box; 
+   		 					-o-box-sizing:border-box;
+		 					-box-sizing:border-box; 
+  }
+
+html,body {
+							height:100%;
+							margin:0;
+							padding:0;
+							font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	      }
+	      
+#loginpage { 
+							height:100%;
+							margin:0;
+							padding:0;
+							overflow:hidden;
+							background-clip:border-box;
+							background-image:url('../images/login_bg.jpg');
+							background-origin:padding-box;
+							background-position:0% 0%;
+							background-repeat:repeat;			 
+		   }
+
+#loginpage #wrapper { 
+							width:40%;
+							margin:12% auto 0 auto;
+							overflow:hidden;
+							border:1px solid #ccc;
+							border-radius:5px; 
+    						-moz-border-radius:5px;
+    						-webkit-border-radius:5px;
+    						-o-border-radius:5px;
+							background-color:#FFFFFF;
+					}
+
+#loginpage #wrapper > p > img {
+							margin:0 20% 0 20%;
+							  }
+							  
+#loginpage #wrapper h1{ 
+							font-size:20px;
+							text-align:center; 
+							font-weight:bold;
+							color:#aaa;
+					  }
+						
+#loginpage #wrapper form {
+							margin-left:30%;
+						 }				
+
+#loginpage #wrapper input {
+							height:30px;
+							width:200px;
+							margin:7px auto 0 auto;
+							padding-left:5px;
+							font-size:12px;
+						  }
+							
+#loginpage #wrapper #submit {
+							margin:20px auto 30px 0;
+							color:#fff;  
+							cursor:pointer;
+							font-weight:bold;
+							border:none;
+							border-radius:3px;
+    						-moz-border-radius:3px;
+    						-webkit-border-radius:3px;
+    						-o-border-radius:3px;
+							background-color:#BBBBBB;
+							}
+
+#loginpage #wrapper #submit:hover { 
+							background-color:#AAAAAA; 
+							outline-color:blue;
+								  } 
+
+#loginpage #wrapper div {
+							margin:10px 23% 10px 23%;
+							color:#CD0000;
+							font-size:14px; 
+							font-weight:bold;
+					    } 
+
+#loginpage #wrapper div > p { 
+							font-size:12px; 
+							font-weight:normal; 
+							}
+							
